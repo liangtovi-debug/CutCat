@@ -1,0 +1,45 @@
+"""Explicit ripple deletion participation; project IDs/text remain verbatim."""
+RIPPLE_DELETE_HELP = 'Ripple delete: the existing “this track” action keeps other tracks, captions and stickers fixed. “Choose participants” previews one committed selected clip interval and deletes only that clip. Its track is mandatory; optional tracks/captions/stickers move only when they start at or after the deleted interval’s end. Any participating survivor intersecting the interval, including wholly contained items, blocks the whole edit. Unchecked items stay fixed and can lose synchronization. Full local audio compilation must remain equivalent; multiple participants require one common integer sample displacement. This preview mode rejects touched transitions and affected groups; changed locked tracks reject. No persistent Sync Lock, linked A/V, automatic speech-following, arbitrary range extraction or gap removal. One Undo restores all changed collections; the total project extent is recomputed from surviving items.'
+ZH_CN = {
+    'Ripple delete · choose participants…': '波纹删除 · 选择参与项…',
+    'Ripple delete · participants': '波纹删除 · 参与项',
+    'Preview': '预览', 'Follow captions': '顺移字幕', 'Follow stickers': '顺移贴纸',
+    'Uses the committed clip interval; staged inspector timing is not used.': '使用已提交的片段区间，不使用检查器中尚未应用的时间草稿。',
+    'Delete only the selected clip. Participants ending at or before its start stay fixed; participants starting at or after its end move left. Any other intersection blocks the entire edit, including items wholly inside the interval.': '仅删除所选片段。结束于该区间起点或之前的参与项保持不变；开始于区间终点或之后的参与项向左移动。其他任何相交都会阻止整次编辑，包括完全位于该区间内的项目。',
+    'The selected clip’s track always participates.': '所选片段所在轨道必须参与。',
+    'Move only this track’s downstream clips; any interval intersection blocks the edit.': '仅移动此轨道后方的片段；任何片段与删除区间相交都会阻止编辑。',
+    'Unchecked tracks, captions and stickers stay fixed and can lose synchronization. Captions do not move speech audio automatically; video does not create linked A/V.': '未勾选的轨道、字幕和贴纸保持不变，可能失去同步。字幕不会自动带动语音音频；视频也不会建立关联音画。',
+    'Moved audible clips must retain the full local audio compilation. Multiple participants also require one common integer sample displacement. Affected groups, locked changed tracks and touched transitions block this preview mode.': '移动的有声片段必须保持完整的局部音频编译结果。多参与项还必须采用同一个整数采样位移。此预览模式会阻止涉及片段组、已锁定且需要更改的轨道或转场的操作。',
+    'Per-operation choices only, not persistent Sync Lock. No changes until Apply. One Undo restores all changed collections. Total extent is recomputed from every surviving item.': '仅用于本次操作，不是持久同步锁。点击“应用”前不更改项目。一次撤销还原所有更改。总时长依据全部保留项目重新计算。',
+    'Selection or project changed. Close and reopen Ripple delete before applying.': '选择或项目已变化。请关闭并重新打开“波纹删除”后再应用。',
+    'Wait for the current task to finish or cancel it before previewing or applying ripple deletion.': '请等待当前任务结束或取消后，再预览或应用波纹删除。',
+    'Preview ready. Apply deletes only the selected clip in one undoable edit.': '预览已就绪。“应用”仅删除所选片段，整次编辑可一次撤销。',
+    'Draft only. Preview the exact fixed, moved and deleted items before Apply.': '仅为草稿。请在应用前预览确切的固定、移动和删除项目。',
+    'Selected clip: {clip_id}\nCommitted [{start}, {end}) · {duration} frames · track {track}.': '所选片段：{clip_id}\n已提交区间 [{start}, {end}) · {duration} 帧 · 轨道 {track}。',
+    'Ripple delete blocked:\n{error}': '波纹删除被阻止：\n{error}',
+    'Exact impact · all existing items': '确切影响 · 所有现有项目',
+    ' · clip track {track}': ' · 片段轨道 {track}',
+    '{action} {category}: {item_id}{track} · [{old_start}, {old_end}) → {position}': '{action} {category}：{item_id}{track} · [{old_start}, {old_end}) → {position}',
+    'removed': '已移除',
+    'No current preview. Changing any participant clears the previous preview.': '当前没有预览。更改任何参与项都会清除上一次预览。',
+    'Fixed': '固定', 'Move': '移动', 'clip': '片段', 'caption': '字幕', 'sticker': '贴纸',
+    RIPPLE_DELETE_HELP: '波纹删除：原有“仅本轨”操作保持其他轨道、字幕和贴纸不变。“选择参与项”预览一个已提交的所选片段区间，并且只删除该片段。其所在轨道必须参与；可选轨道、字幕和贴纸仅在开始于删除区间终点或之后时移动。任何与区间相交的参与保留项（包括完全位于区间内的项目）都会阻止整次编辑。未勾选项目保持不变，可能失去同步。必须保持完整局部音频编译结果相同；多参与项必须采用同一个整数采样位移。此预览模式拒绝涉及转场和片段组的操作；需要更改的已锁定轨道也会阻止操作。不包含持久同步锁、关联音画、自动带动语音、任意区间提取或空隙移除。一次撤销还原所有更改；总时长根据保留项目重新计算。',
+}
+ERROR_ZH_CN = {
+    'Ripple delete participating tracks must be a nonempty tuple': '波纹删除参与轨道必须为非空元组',
+    'Ripple delete participating tracks must be unique and include the selected track': '波纹删除参与轨道不得重复，且必须包含所选片段所在轨道',
+    'Ripple delete participation would change relative audio synchronization at this sample-grid phase; choose another edit interval or project frame': '在此采样网格相位，波纹删除参与项会改变音频相对同步；请选择其他编辑区间或项目帧',
+    'Unknown ripple delete clip': '未知的波纹删除片段',
+    'Ripple delete participant intersects the deleted interval; leave it fixed or choose another clip': '波纹删除参与项与删除区间相交；请将其保持固定，或选择其他片段',
+    'Invalid ripple delete plan': '波纹删除计划无效',
+    'Ripple delete plan is stale; preview the current selection again': '波纹删除计划已过期；请重新预览当前选择',
+    'Ripple delete plan was changed; preview the current selection again': '波纹删除计划已被更改；请重新预览当前选择',
+    'Ripple delete cannot prove the local audio compiler contract': '波纹删除无法证明局部音频编译结果保持不变',
+    'Ripple delete would change downstream audio at this sample-grid phase; choose another edit interval or project frame': '在此采样网格相位，波纹删除会改变后方音频；请选择其他编辑区间或项目帧',
+    'Invalid ripple participating track': '波纹删除参与轨道无效',
+    'Invalid ripple follow captions': '波纹删除字幕跟随选项无效',
+    'Invalid ripple follow stickers': '波纹删除贴纸跟随选项无效',
+    'Invalid selected ripple clip id': '所选波纹删除片段的标识无效',
+}
+ZH_CN.update(ERROR_ZH_CN)
+EN = {source: source for source in ZH_CN}

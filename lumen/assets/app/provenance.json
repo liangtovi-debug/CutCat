@@ -1,0 +1,49 @@
+{
+  "artwork": "CutCat / 剪辑猫 approved original app icon",
+  "source_filename": "cutcat-app-icon-concept-v1.png",
+  "source_sha256": "db9e62a4c873f66ca67e09d5a5c32f70959c653dd78f2f6971e259781bc91546",
+  "source_dimensions": [
+    1254,
+    1254
+  ],
+  "source_mode": "RGBA",
+  "runtime_png": "512×512 RGBA Lanczos resampling of approved PNG; no crop, redraw, color or alpha compositing. The source master is not duplicated in the application bundle.",
+  "conversion": {
+    "tool": "Pillow 12.3.0",
+    "resampling": "Image.Resampling.LANCZOS",
+    "pixel_format": "RGBA",
+    "ico_sizes": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      128,
+      256
+    ],
+    "icns_pixel_sizes": [
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "runtime_png_size": 512
+  },
+  "files": {
+    "cutcat.icns": {
+      "sha256": "833d24653c796bc5a942226b6de049b6a8eb7667b640c23758b6966656edaf81",
+      "bytes": 1426895
+    },
+    "cutcat.ico": {
+      "sha256": "d1fb17745ee1fa445637e1c4865250011bc176a840a740b6e960e672615dd3ab",
+      "bytes": 93098
+    },
+    "cutcat.png": {
+      "sha256": "a17b309ce3cb9ebde3d4a74d3572f727cede03ea1092ee2b7a54d7eddba89cde",
+      "bytes": 202664
+    }
+  },
+  "scope": "Original user-approved artwork; format conversion only. No third-party artwork included; this metadata does not choose or change the project distribution license."
+}

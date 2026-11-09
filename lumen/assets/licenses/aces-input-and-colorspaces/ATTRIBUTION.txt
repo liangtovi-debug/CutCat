@@ -1,0 +1,26 @@
+Apple Log transfer function reference
+Copyright Contributors to the ACES Project.
+SPDX-License-Identifier: Apache-2.0
+
+Upstream: https://github.com/aces-aswf/aces-input-and-colorspaces
+Pinned revision: 29b722bccd529460696a8382394504cae2e88419
+Verified 2026-10-23. Files consulted:
+  apple/CSC.Apple.AppleLog_to_ACES.ctl
+  apple/CSC.Apple.ACES_to_AppleLog.ctl
+  LICENSE
+
+The pinned recursive repository tree contains no NOTICE file; the root NOTICE
+URL also returned HTTP 404. Both referenced CTL files carry the copyright and
+Apache-2.0 identifier above. The accompanying LICENSE is the unmodified pinned
+upstream license text.
+
+CutCat modifications in lumen/apple_log.py: translated the transfer equations
+into vectorized NumPy with explicit validation and overflow bounds. Replaced
+the ACES/AP0 conversion route with a direct D65 BT.2020-to-BT.709 matrix derived
+from primary chromaticities. Added an original fixed SDR luminance shoulder,
+neutral-axis gamut compression and BT.709 output encoding. This is not an ACES
+output transform or an Apple LUT. No Apple LUT is included or redistributed.
+
+Distribute this attribution and the accompanying LICENSE with source and binary
+packages containing lumen/apple_log.py. These notices do not change licensing
+of unrelated CutCat files, and do not imply endorsement by Apple or ACES.

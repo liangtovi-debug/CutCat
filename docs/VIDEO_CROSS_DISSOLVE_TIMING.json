@@ -1,0 +1,53 @@
+{
+  "scope": "CPU offline 5-frame transition and20-frame export on two synthetic CFR clips; not realtime, not4K/native-platform benchmark",
+  "results": [
+    {
+      "width": 640,
+      "height": 360,
+      "profile": "h264_8bit",
+      "source_frames": 24,
+      "transition_frames": 5,
+      "timeline_frames": 20,
+      "cold_bridge_seconds": 1.4370336029678583,
+      "warm_bridge_including_fresh_source_proof_seconds": 0.32709644397255033,
+      "warm_bridge_full_export_seconds": 1.270809241977986,
+      "export_bytes": 5545
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "profile": "prores_422_hq_10bit",
+      "source_frames": 24,
+      "transition_frames": 5,
+      "timeline_frames": 20,
+      "cold_bridge_seconds": 1.3960156600223854,
+      "warm_bridge_including_fresh_source_proof_seconds": 0.2992996239918284,
+      "warm_bridge_full_export_seconds": 1.3933091659564525,
+      "export_bytes": 57019
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "profile": "h264_8bit",
+      "source_frames": 24,
+      "transition_frames": 5,
+      "timeline_frames": 20,
+      "cold_bridge_seconds": 5.80042110796785,
+      "warm_bridge_including_fresh_source_proof_seconds": 0.4515616460121237,
+      "warm_bridge_full_export_seconds": 3.42303860001266,
+      "export_bytes": 17246
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "profile": "prores_422_hq_10bit",
+      "source_frames": 24,
+      "transition_frames": 5,
+      "timeline_frames": 20,
+      "cold_bridge_seconds": 5.962996696005575,
+      "warm_bridge_including_fresh_source_proof_seconds": 0.4739938019774854,
+      "warm_bridge_full_export_seconds": 4.113922789983917,
+      "export_bytes": 462459
+    }
+  ]
+}

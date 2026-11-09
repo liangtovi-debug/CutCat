@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "basis": "Linux complete targeted run; measured module wall time summed from JUnit, rounded up with 25% scheduling margin and 5s floor. Scheduling weights, not Windows runtime guarantees. Whole modules and all nodes retained.",
+  "baseline": "377cc0891a4f2e5f0168cc886111fa5f9f90dc21 plus byte-preserving font candidate",
+  "module_seconds": {
+    "tests/test_affine_linked_av_split_media.py": 55,
+    "tests/test_bounded_test_runner.py": 7,
+    "tests/test_caption_font_snapshot.py": 5,
+    "tests/test_clip_composite_pixels.py": 13,
+    "tests/test_frozen_range_environment.py": 5,
+    "tests/test_production_range_complex_fractional.py": 25,
+    "tests/test_production_range_edges.py": 28,
+    "tests/test_production_range_legacy_static.py": 16,
+    "tests/test_production_range_slow_fast.py": 30,
+    "tests/test_range_preview_oracle.py": 57,
+    "tests/test_range_preview_oracle_complex_fractional.py": 143,
+    "tests/test_range_preview_oracle_legacy_static.py": 75,
+    "tests/test_range_preview_oracle_slow_fast.py": 149,
+    "tests/test_runtime_timing.py": 5
+  }
+}

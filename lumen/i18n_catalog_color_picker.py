@@ -1,0 +1,50 @@
+"""Explicit stage and precision labels for static hue picking."""
+ZH_CN = {
+'Static source frame for hue sampling': '用于色相取样的静态源画面',
+'Pick source hue · static frame': '拾取源色相 · 静态画面',
+'Selected clip only · after input normalization, spatial restoration and primary + RGB curves; before hue curves and LUT.\nRGB16 decode → float32 sample; image display is clipped 8-bit. Not the composited preview.': '仅选中片段 · 输入归一化、空间画质修复、基础调色与 RGB 曲线之后；色相曲线和 LUT 之前。\nRGB16 解码 → float32 取样；显示图像为截断后的 8 位。并非合成预览画面。',
+'Reading the selected clip frame…': '正在读取选中片段的画面…',
+'Click a colored pixel. Gray, padding and out-of-range samples are rejected.': '点击有颜色的像素。灰色、填充边缘和超范围像素不可取样。',
+'Add center + range anchors without changing the current curve. Then adjust the selected point. This is not an HSL mask or tracking tool.': '添加中心点与范围锚点，保留当前曲线形状；随后调整选中的控制点。此功能并非 HSL 蒙版或跟踪工具。',
+'Add sampled hue points': '添加取样色相控制点',
+'Frame is stale. Close and reopen the picker for the current clip and playhead.': '画面已过期。请关闭并重新打开，为当前片段和播放头取样。',
+'Timeline frame {timeline} · source frame {source_frame} at project rate · source time {seconds}s': '时间线第 {timeline} 帧 · 项目帧率下源第 {source_frame} 帧 · 源时间 {seconds} 秒',
+'No usable hue here: choose a colored, in-range picture pixel, not gray or padding.': '此处没有可用色相：请选择范围内的彩色画面像素，而非灰色或填充边缘。',
+'Sampled hue {degrees}° · pixel ({x}, {y}). No grade change yet.': '取样色相 {degrees}° · 像素 ({x}, {y})。尚未改变调色。',
+'Reading hue sampling frame…': '正在读取色相取样画面…',
+'Pick from clip frame…': '从片段画面取色…',
+'Curve non-neutral hue spans: {spans}. Not a spatial mask.': '曲线非中性色相范围：{spans}。并非空间蒙版。',
+'Curve is neutral: no hue range changed.': '曲线为中性：未改变任何色相范围。',
+'Hue picker needs more control points than the 32-point limit': '取色需要新增控制点，但会超过 32 个点的上限',
+'Hue picker hue must be finite and between 0 and 1': '取样色相必须为 0 到 1 之间的有限数值',
+'Hue picker half width must be between 0 and 0.5': '色相范围半宽必须在 0 到 0.5 之间',
+'Hue picker selection is invalid': '取色色相选择无效',
+'Hue picker neutral value must be finite': '色相曲线中性值必须为有限数值',
+}
+EN = {key: key for key in ZH_CN}
+ERROR_ZH_CN = {key: value for key, value in ZH_CN.items() if key.startswith('Hue picker')}
+ZH_CN.update({
+'Select exactly one existing clip.': '请选择一个现有片段。',
+'Color picking requires a video source.': '取色需要视频画面源。',
+'Color picking requires a local media file.': '取色需要本地媒体文件。',
+'Color picking cancelled.': '已取消取色。',
+'Color picking timed out.': '读取取色画面超时。',
+'Color picker decoder exceeded its output budget.': '取色解码器超出输出预算。',
+'Cannot decode selected source frame.': '无法解码选中的源画面。',
+'Color picker timeout must be positive and finite.': '取色超时限制必须为正有限数。',
+'Color picker canvas exceeds its memory budget.': '取色画布超过内存预算。',
+'Invalid project frame rate.': '项目帧率无效。',
+'Playhead must be inside the selected clip.': '请将播放头移至选中片段内部。',
+'Color picking is unavailable with active stabilization.': '片段启用防抖时暂不支持取色，以免采样处理阶段不一致。',
+'Color picking cannot match restoration with changing source geometry.': '源画面尺寸中途变化，无法与渲染中的修复区域保持一致，暂不支持取色。',
+'Spatial restoration: applied to active picture.': '空间画质修复：已应用于有效画面。',
+'Spatial restoration: bypassed (disabled or zero strength).': '空间画质修复：已旁路（关闭或强度为零）。',
+'Color picking requires one decodable video stream.': '取色需要一个可解码的视频流。',
+'Color picker source exceeds its memory budget.': '取色源画面超过内存预算。',
+'Color picking does not support transparent source formats.': '暂不支持透明源格式取色，避免误采透明像素。',
+'Selected source frame is missing or incomplete.': '选中的源画面缺失或不完整。',
+'Selected source or clip changed during color picking.': '取色期间源文件或片段发生改变，请重新打开。',
+'Cannot prepare color picker source: {exc}': '无法准备取色源画面：{exc}',
+})
+EN = {key: key for key in ZH_CN}
+ERROR_ZH_CN = dict(ZH_CN)

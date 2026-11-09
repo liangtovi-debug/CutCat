@@ -1,0 +1,11 @@
+{
+  "canvas": [
+    3840,
+    2160
+  ],
+  "worker_quantization_seconds": 0.065614,
+  "gui_qimage_copy_seconds": 0.008305,
+  "presentation_bytes": 24883200,
+  "platform": "Linux/offscreen",
+  "note": "Single synthetic presentation pass; not capture latency, hardware-independent guarantee or native desktop validation."
+}

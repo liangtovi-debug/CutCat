@@ -1,0 +1,19 @@
+CutCat 使用、修改及禁止售卖许可
+
+除另有许可证或声明的材料外，任何人均可免费使用、复制、修改及免费分发本仓库中由 CutCat 项目权利人有权授权的原创代码和原创素材。
+
+不得出售 CutCat 软件、其副本或修改版本。本限制不等同于禁止商业用途，也不限制使用 CutCat 创作的作品的销售。
+
+另有许可的文件、素材及第三方组件继续适用各自许可。本许可不限制这些许可已经授予的权利。尤其是标明 CC0 的音效及目录，以及 Apache-2.0 的 lumen/apple_log.py（包括其冻结副本），不受本许可的禁止售卖条款限制。分发时须保留本许可和适用的第三方声明。详见 docs/LICENSING.md。
+
+此为带有禁止售卖条件的源码可用许可，不是符合 OSI 定义的开源许可证。
+
+CutCat Use, Modification and No-Sale License
+
+Except for material covered by a separate license or notice, anyone may use, copy, modify and redistribute free of charge the original code and original assets in this repository that the CutCat rights holder is entitled to license.
+
+You may not sell the CutCat software, copies of it, or modified versions. This restriction is not a general prohibition on commercial use and does not restrict selling works created with CutCat.
+
+Separately licensed files, assets and third-party components remain governed by their respective licenses. This license does not restrict rights already granted under those licenses. In particular, the CC0-labelled sounds and catalogue, and the Apache-2.0-licensed lumen/apple_log.py (including frozen copies of that file), are not subject to this license's no-sale restriction. Retain this license and applicable third-party notices when redistributing. See docs/LICENSING.md.
+
+This is a source-available license with a no-sale condition, not an OSI-defined open-source license.

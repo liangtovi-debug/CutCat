@@ -1,0 +1,1093 @@
+{
+  "baseline_commit": "f91f80ac101ea8fed59fa44497a019faa375f50f",
+  "baseline_tree": "0034e800278d018bf3ea935b47edcd244102f272",
+  "archive": "accepted-lumen-python.zip",
+  "archive_sha256": "04574e31ff660df39e1c09d7239a2b97e5d093ef249adf1ab99f31531d5c7784",
+  "entries": [
+    {
+      "path": "lumen/__init__.py",
+      "size": 91,
+      "sha256": "6c8a98bdff4a2a1be4774a1650cef4c63b512369cf60fb0e25a4aca66d611273"
+    },
+    {
+      "path": "lumen/__main__.py",
+      "size": 48,
+      "sha256": "d9f84d973e46d988d0dfda176dd03650f11ea05520d71016f571dcc9486bf723"
+    },
+    {
+      "path": "lumen/agents_adapter.py",
+      "size": 17955,
+      "sha256": "759141d19dd888012fbee590d2726c20544369031da489b3d0334a79afbb35dd"
+    },
+    {
+      "path": "lumen/api_settings.py",
+      "size": 4806,
+      "sha256": "3624dbb7a06150ae2f4c57c88976ed1b724ab1a71d4d3b7e914c09b9e054baf5"
+    },
+    {
+      "path": "lumen/apple_log.py",
+      "size": 4777,
+      "sha256": "984c7e8448abcdb4d0096c6c957ed833706ee09f63f0fdcafc6c3dc80d1c5e2d"
+    },
+    {
+      "path": "lumen/asr.py",
+      "size": 13481,
+      "sha256": "14d219aecce4dc0f4d9550f895bb24b5c81319f6b16ec19b7e7f24b9bfd59dd2"
+    },
+    {
+      "path": "lumen/audio_analysis.py",
+      "size": 34302,
+      "sha256": "a4186b31525ee26fdb9d8133ab0e506ff41d62f74eefed64e871898d3de0b0e6"
+    },
+    {
+      "path": "lumen/audio_components.py",
+      "size": 1536,
+      "sha256": "2ce06aca3ca83fa5aa5f5da6161367227662d7acb9ef1ce11ea1687adca94554"
+    },
+    {
+      "path": "lumen/audio_gain.py",
+      "size": 5879,
+      "sha256": "d6c6856a19c4759aaa7847dae0f9a0031e4086284f728eae0f2752d4c37f77a0"
+    },
+    {
+      "path": "lumen/audio_mix.py",
+      "size": 6912,
+      "sha256": "899712de16a203aa932821b8f2ba701fe8bc08c8a681ec563f3ea833fa39c847"
+    },
+    {
+      "path": "lumen/audio_timing.py",
+      "size": 13213,
+      "sha256": "33f47da3a449fb2a914ca8cb0d3bc95a05e5ccb0ea410f6351c0a9f0e6197c5b"
+    },
+    {
+      "path": "lumen/audio_true_peak.py",
+      "size": 4190,
+      "sha256": "e05221174f98870ee9d5cf4fd641d3cc3f62eddba9d4dd98456e850ced097c61"
+    },
+    {
+      "path": "lumen/audio_waveform.py",
+      "size": 20501,
+      "sha256": "9431ee847620c6f080449ac97cfc6336f774a902c836e0d2dec8e874901b6532"
+    },
+    {
+      "path": "lumen/beauty_mask_prototype.py",
+      "size": 21111,
+      "sha256": "e0769b96188451acb96d9d574ca50b5846a48d0e32091d3e2a07dc9eca10f758"
+    },
+    {
+      "path": "lumen/beauty_prototype.py",
+      "size": 10287,
+      "sha256": "fb82e9b13c95e75cedfc45c9ddb1c8355d0dee8ed920af556e0b10502cdee6f5"
+    },
+    {
+      "path": "lumen/branding.py",
+      "size": 338,
+      "sha256": "89181cf6e281ad738fb3d546442a004e35f000a383812a6895dac43264ec55a3"
+    },
+    {
+      "path": "lumen/build_provenance.py",
+      "size": 2885,
+      "sha256": "36cce4b4c8ed8aa32ec7705b890ca3e2c2bdaa19293d55cd787a4437065058b0"
+    },
+    {
+      "path": "lumen/caption_layout.py",
+      "size": 12943,
+      "sha256": "6de1736290313aaa12ad6378c625a108818885f33b70d73e0798264009e1f3d9"
+    },
+    {
+      "path": "lumen/caption_render.py",
+      "size": 19578,
+      "sha256": "c848c3b44386435f8781f68320c6d948abc45399418b156320e9f41c06ff8f62"
+    },
+    {
+      "path": "lumen/cli.py",
+      "size": 2322,
+      "sha256": "584a0a0a731256f1d9ed3d7a7d8c1a8d599bf42a1f122d44f5504d7857b4e9e8"
+    },
+    {
+      "path": "lumen/clip_audio_translation.py",
+      "size": 3246,
+      "sha256": "a90ecd6222bb063c1a6b69e97f290963e0c8c8700be09fd5850a4a693316c24d"
+    },
+    {
+      "path": "lumen/clip_composite.py",
+      "size": 26376,
+      "sha256": "b0719904446bba16ebe16f578c2c0fff4b908f31be5c4d446da393d86793540b"
+    },
+    {
+      "path": "lumen/clip_copy_paste.py",
+      "size": 18355,
+      "sha256": "dd01eb656d426b090987d909584d29ce3cb03efb747530063c399b8d333ef826"
+    },
+    {
+      "path": "lumen/clip_motion.py",
+      "size": 5147,
+      "sha256": "e6d0dc0319a98f3ead3243aaa3ca1090f91f1302433ab1e56fc9a3e34505ac47"
+    },
+    {
+      "path": "lumen/clip_motion_render.py",
+      "size": 1742,
+      "sha256": "2db1e6d88efdd8dd510d9688eb3529b000568f1b47a864778b0145e93824d996"
+    },
+    {
+      "path": "lumen/clip_transform.py",
+      "size": 5473,
+      "sha256": "bf2a4332cfce114cbee50de30ee781f6d8a8f6741808ed212892e4880b3fcee7"
+    },
+    {
+      "path": "lumen/color.py",
+      "size": 12913,
+      "sha256": "5fb4fe5b9258990a62c683ad7f06e190086138f96e2027b4ea82312e07589c52"
+    },
+    {
+      "path": "lumen/color_media.py",
+      "size": 15744,
+      "sha256": "bb29d198edcd6e04e94df9db67fc780e856a68100c2de206c501093385de8477"
+    },
+    {
+      "path": "lumen/color_output.py",
+      "size": 1492,
+      "sha256": "f26ac316f7c8070697ca203c1042521057b33de0ab89fab576a500cae01324cb"
+    },
+    {
+      "path": "lumen/color_picker.py",
+      "size": 6087,
+      "sha256": "c6a36747b883b616713581b03c17757a2e76011a9b09532a70c3f9f23d397ea7"
+    },
+    {
+      "path": "lumen/color_picker_source.py",
+      "size": 20607,
+      "sha256": "86128b7cd9e3ba4f52771e7383905922c3d25fc77cbd2dabd4ca5de9763a0181"
+    },
+    {
+      "path": "lumen/color_pipeline_smoke.py",
+      "size": 27661,
+      "sha256": "dd88a8851d054b6193a016f7205b8a4c1ce24c5438afc160398bd3458679b506"
+    },
+    {
+      "path": "lumen/color_scopes.py",
+      "size": 25979,
+      "sha256": "835c06719e1c72d1582bacbf007324daf67e3e38c50fa066f3e63b9334ff158d"
+    },
+    {
+      "path": "lumen/color_source.py",
+      "size": 9009,
+      "sha256": "00b597d8ef997afe170cc76fab12801de9ee9ef0618e586cac86c69772e4a7a3"
+    },
+    {
+      "path": "lumen/color_widgets.py",
+      "size": 9181,
+      "sha256": "ab82e4df8523aac07598ee9152b0ce1c160ec8bc1195d190c735ab5573ad8e29"
+    },
+    {
+      "path": "lumen/component_setup.py",
+      "size": 13253,
+      "sha256": "861c5b5c289b023ef887fff4a98cb303f3d4f236c7f3dca59bf3001786840f80"
+    },
+    {
+      "path": "lumen/controlled_assistant.py",
+      "size": 15376,
+      "sha256": "1547f5167592c75cf7d677e1a4baca7540658cdf2339f06331b3d10d1745922c"
+    },
+    {
+      "path": "lumen/file_identity.py",
+      "size": 2181,
+      "sha256": "bd5c1d024368a8d3be34fc06afeabc781527ee49666fe8639cbd2a0d24b2fc2e"
+    },
+    {
+      "path": "lumen/final_frame_preview.py",
+      "size": 21254,
+      "sha256": "c279040184925ee469e445670004c8f821fe2e327fcde153d49aa1495ed889ab"
+    },
+    {
+      "path": "lumen/frame_grade_preview.py",
+      "size": 1542,
+      "sha256": "daa8e440fabd4174e96b67839553256b4ada9289c244bd6e22880be307d13cad"
+    },
+    {
+      "path": "lumen/gap_close.py",
+      "size": 7673,
+      "sha256": "a362e2a68b0ed42ee4e3bb6cc62ac325d3252149ac0293841909c27c2a31db01"
+    },
+    {
+      "path": "lumen/grade_transfer.py",
+      "size": 6514,
+      "sha256": "168b9487a5e08e01b5108a7ab6fdfc84bea930eb07d933a55beb30ddfb4485b7"
+    },
+    {
+      "path": "lumen/highbit_captions.py",
+      "size": 5578,
+      "sha256": "e8805e9a0cbab3db4e11d565e31dff51307fb12323c66a23660f1f859d58288d"
+    },
+    {
+      "path": "lumen/highbit_effects.py",
+      "size": 14309,
+      "sha256": "4f162570fa9a934f6a36dfb0fef565ecc86013ff9d40c5c02dc85fad4c89b8f4"
+    },
+    {
+      "path": "lumen/highbit_stickers.py",
+      "size": 9669,
+      "sha256": "1b643f5637156bc162ea193697caaa953dd819bd4911346a149f6db27fd35d1a"
+    },
+    {
+      "path": "lumen/i18n.py",
+      "size": 4682,
+      "sha256": "43df8f7f353b97fd4bc9565233a00ab11ec200883978a6d2ddc6807bcb41202d"
+    },
+    {
+      "path": "lumen/i18n_catalog_api_settings.py",
+      "size": 6065,
+      "sha256": "0db8619777fb67e29856491d21a6453c96e50c0f86793cce5b7a1a87eb90e80d"
+    },
+    {
+      "path": "lumen/i18n_catalog_apple_log.py",
+      "size": 4612,
+      "sha256": "042a35ade79b1f9565a23f43d9950d7adb5fcd7dd23d60f681e2b67b9b5dddc2"
+    },
+    {
+      "path": "lumen/i18n_catalog_audio_analysis.py",
+      "size": 10794,
+      "sha256": "f0f620fecb1a83a4b121b3ce86a0b5944177563fe46b571f246520794e7fcff9"
+    },
+    {
+      "path": "lumen/i18n_catalog_audio_gain.py",
+      "size": 6817,
+      "sha256": "e0ccda15ca44da5ada967b526d47cc1784617ba9b4a9deda99aa8093c3df0fef"
+    },
+    {
+      "path": "lumen/i18n_catalog_basics.py",
+      "size": 1604,
+      "sha256": "659e97c0137a39f04cc44f182c616e237289991026acad7915f82fde36bbc1fa"
+    },
+    {
+      "path": "lumen/i18n_catalog_captions.py",
+      "size": 23890,
+      "sha256": "97917d39c3d34071c37e0f661d22265114744e7a8d40c2dcaad22e21bb32a3bd"
+    },
+    {
+      "path": "lumen/i18n_catalog_clip_composite.py",
+      "size": 3906,
+      "sha256": "03e1646c766fc344028ce5f5c15cb8e0ab0055a979ce42dbd2d2f055a1f2716b"
+    },
+    {
+      "path": "lumen/i18n_catalog_clip_copy_paste.py",
+      "size": 8554,
+      "sha256": "2f5e93687ad2bddf58f27f1c9572c99bc33588a8889165975ffd972817ee143d"
+    },
+    {
+      "path": "lumen/i18n_catalog_clip_groups.py",
+      "size": 2096,
+      "sha256": "50e8aaad45e89dca32615ea88a1d1750018c0e80b0859c0816d72d8dee28976a"
+    },
+    {
+      "path": "lumen/i18n_catalog_clip_motion.py",
+      "size": 2157,
+      "sha256": "3d2112ff1aad9ad738866af8cc65efe434b9fbc16f0788e1450e902ccd7495af"
+    },
+    {
+      "path": "lumen/i18n_catalog_color_foundation.py",
+      "size": 9149,
+      "sha256": "48a2d626ca8b87f535fbdae3f89c99c62d24aa677ee9185d02e8303273ed2a7b"
+    },
+    {
+      "path": "lumen/i18n_catalog_color_picker.py",
+      "size": 4998,
+      "sha256": "0610c5ee2c130535428ab7458af087753ab835c759b94f9c3e5cde63fb08d799"
+    },
+    {
+      "path": "lumen/i18n_catalog_color_reference.py",
+      "size": 3372,
+      "sha256": "523043c66f1df837a48b27192acf2d1bdb813f5328d21e4f9961b0ded5e3a3ae"
+    },
+    {
+      "path": "lumen/i18n_catalog_component_setup_ui.py",
+      "size": 7844,
+      "sha256": "c56c789da5ee9cb04b229772191bf868112fb20b0f58cfcc82c746d638678341"
+    },
+    {
+      "path": "lumen/i18n_catalog_contrast_pivot.py",
+      "size": 2071,
+      "sha256": "565da1d8f5a236250fb8ce2bb1208177f1eed41a8a9fc76fbe70757292ad2fe7"
+    },
+    {
+      "path": "lumen/i18n_catalog_controlled_assistant.py",
+      "size": 6839,
+      "sha256": "53723b38c3f6cd8782bd941c1eee49a5eb0fa979a8e4bc54951e0445dcfb681b"
+    },
+    {
+      "path": "lumen/i18n_catalog_core.py",
+      "size": 39748,
+      "sha256": "7b46cc6eced1fa2f79d5f0d5cad3dc3b255a7ef06198777b37e5a1a92c72cc53"
+    },
+    {
+      "path": "lumen/i18n_catalog_errors.py",
+      "size": 74387,
+      "sha256": "9878887eb89d83ef75566a0f397cd06db7a3c83c9b125e639e4b41db5efc2815"
+    },
+    {
+      "path": "lumen/i18n_catalog_final_frame_preview.py",
+      "size": 7698,
+      "sha256": "a18005303081778493a907c26046e2bee6412086b0338b0e7ca0c063d7dbee79"
+    },
+    {
+      "path": "lumen/i18n_catalog_frame_grade_preview.py",
+      "size": 4432,
+      "sha256": "3629f761ed9ba6e40142e92ea97ca516d064aa21cc54cee42a01cab8d982889d"
+    },
+    {
+      "path": "lumen/i18n_catalog_gap_close.py",
+      "size": 7681,
+      "sha256": "f30e84be65fa91c2869cf26981b9430d3774085e3fb6d919d2e03019873cf519"
+    },
+    {
+      "path": "lumen/i18n_catalog_grade_transfer.py",
+      "size": 3372,
+      "sha256": "bfa6df6a15eef0d11ee9ce4e52eb586a353ce7911f3559a2c7c1973df9835a50"
+    },
+    {
+      "path": "lumen/i18n_catalog_help.py",
+      "size": 1780,
+      "sha256": "984109d92b8986a846bc8b0f332f4cd53baa3d429e8e33cc61c84c0e5571b94c"
+    },
+    {
+      "path": "lumen/i18n_catalog_linked_audio_roll.py",
+      "size": 3933,
+      "sha256": "12ed0f90f84492629259454119954fff87614a1a7852c423c345ecb7ec7987ef"
+    },
+    {
+      "path": "lumen/i18n_catalog_linked_av.py",
+      "size": 26692,
+      "sha256": "0b0b3c7a94a48c323c7823da1766469990613c5cb2e283369283a6d56e2c04f1"
+    },
+    {
+      "path": "lumen/i18n_catalog_loudness_proposal.py",
+      "size": 3746,
+      "sha256": "9428c080e9d8e980e0bdcae819a71c0ba2a8501c5fcf941873370bc60e94162b"
+    },
+    {
+      "path": "lumen/i18n_catalog_loudness_proposal_errors.py",
+      "size": 3942,
+      "sha256": "794df2af4eab9223950bbfb48d6f4b520be42247d717341bf125faa311dc7421"
+    },
+    {
+      "path": "lumen/i18n_catalog_master_gain.py",
+      "size": 2114,
+      "sha256": "da16ab712209a7821df90a94811a215854cf239fa3458af449862b4ca7ce4e88"
+    },
+    {
+      "path": "lumen/i18n_catalog_media_bins.py",
+      "size": 1859,
+      "sha256": "f388a25d27f92397a98239aee4cf1abb30a0de1538ce3f1c96a21087a8aafee5"
+    },
+    {
+      "path": "lumen/i18n_catalog_multiselection.py",
+      "size": 679,
+      "sha256": "18846237839a1e8346a4f59d4a2d64d240241d3e932554b7ca373aa9d3034517"
+    },
+    {
+      "path": "lumen/i18n_catalog_online_voices.py",
+      "size": 1501,
+      "sha256": "aef2db9b335f7cc78bb284d0de925bfe258941e4cb2272027526be2285707165"
+    },
+    {
+      "path": "lumen/i18n_catalog_panels.py",
+      "size": 16321,
+      "sha256": "921ce2083832366aaf8e643b24ff0e0b8a62e840f8cf456370dd2de9b907284b"
+    },
+    {
+      "path": "lumen/i18n_catalog_picture_animation.py",
+      "size": 2535,
+      "sha256": "9558ca05703d5442e5a474ad0321a3772a310a5fdcb4dce027c8ca0e584f9409"
+    },
+    {
+      "path": "lumen/i18n_catalog_qualifier.py",
+      "size": 35304,
+      "sha256": "a72000405a12b99ed11577b62d4521a368fb3b8d8b528340f48e153b0d60990a"
+    },
+    {
+      "path": "lumen/i18n_catalog_recovery.py",
+      "size": 2239,
+      "sha256": "f88e6fdc416e153cd1f63cefbbbda3e45d0b5f981dfcbfab0445fc1e58125015"
+    },
+    {
+      "path": "lumen/i18n_catalog_restoration.py",
+      "size": 5556,
+      "sha256": "60a062a954a72d84421e76971dcf56172ff8011dc12300c747358d684251c0af"
+    },
+    {
+      "path": "lumen/i18n_catalog_ripple_delete.py",
+      "size": 7694,
+      "sha256": "28bc416efb81c72da6a37befe092a6822ee3ba77559cdc4f6d9f53121e2b077c"
+    },
+    {
+      "path": "lumen/i18n_catalog_roll.py",
+      "size": 3546,
+      "sha256": "24c4658b15d13ebcc4d96a704ae624082df1e36799124df04f26617adbeb3511"
+    },
+    {
+      "path": "lumen/i18n_catalog_scopes.py",
+      "size": 2406,
+      "sha256": "5af1055eb6910b7f0b9c7d1d7781b6f2a5af4a3004942ad8abfd319c59795334"
+    },
+    {
+      "path": "lumen/i18n_catalog_selective_color.py",
+      "size": 2973,
+      "sha256": "71fbc65b26ffea32c14b9ff22275dd79bc95596d23bb16e0f3d8d4ae6501f5fd"
+    },
+    {
+      "path": "lumen/i18n_catalog_shortcuts.py",
+      "size": 6550,
+      "sha256": "7ed44bf92924f6dffaaf207378866cfb5b614a40508835c30934922d6e1764e0"
+    },
+    {
+      "path": "lumen/i18n_catalog_slip.py",
+      "size": 1000,
+      "sha256": "67ed4404981466942fe5f0d3611b959bce00d78e1f4bc90d7b69c29b9d7f2a4f"
+    },
+    {
+      "path": "lumen/i18n_catalog_sounds.py",
+      "size": 4209,
+      "sha256": "6362ff9425fe46e0ac6edceaa7c6973ee96da4b6a9e51ef8baf396c3368252f7"
+    },
+    {
+      "path": "lumen/i18n_catalog_source_audio_reattach.py",
+      "size": 8972,
+      "sha256": "bf8056d90780dc9a3b1323e358fd07091af0163aff4fd33f866c10c06d4a4ed8"
+    },
+    {
+      "path": "lumen/i18n_catalog_source_audio_separation.py",
+      "size": 9673,
+      "sha256": "05fc37ee98264043567a392b794b1936be4ec4acad9d4551d5e57451a22eedcd"
+    },
+    {
+      "path": "lumen/i18n_catalog_source_overwrite.py",
+      "size": 39706,
+      "sha256": "b38f559a932ce3a7f8176801095101d4726da519901a8b745d5ecba47c3d2b5d"
+    },
+    {
+      "path": "lumen/i18n_catalog_source_ranges.py",
+      "size": 7912,
+      "sha256": "8106a9a108447f714d1faf3a553ff17ae57f1c3623f5d4e74b34e7047e03b539"
+    },
+    {
+      "path": "lumen/i18n_catalog_stabilization.py",
+      "size": 10951,
+      "sha256": "c0d9d3934168be5cf20bbfdc3c4a5bec53320167e8dcabccd905ff2cb768eb9c"
+    },
+    {
+      "path": "lumen/i18n_catalog_timeline_markers.py",
+      "size": 7846,
+      "sha256": "a52321c78ef398e66aded66878a50d7a51e062212b18eb1c661d6deb87f32719"
+    },
+    {
+      "path": "lumen/i18n_catalog_track_edit_locks.py",
+      "size": 3015,
+      "sha256": "abbedc64e1b634a659c2a20605c08754edf0cfe37e713ac9a1d01452aff58bcd"
+    },
+    {
+      "path": "lumen/i18n_catalog_trim_edge.py",
+      "size": 725,
+      "sha256": "b7470ae620376ec91f1b2b4701e9a6bbfbdd6f15d5f0561de42b76a073300373"
+    },
+    {
+      "path": "lumen/i18n_catalog_tts_review.py",
+      "size": 965,
+      "sha256": "627ae7d1ba68a02b9178df2a09813e180ffb0f321d7363f10720029b2534944d"
+    },
+    {
+      "path": "lumen/i18n_catalog_video_transition.py",
+      "size": 7378,
+      "sha256": "c6e4662098101cc7bbd6e7129ab242cc16a554eee6e3e18bdcc5097bd3c9dbd6"
+    },
+    {
+      "path": "lumen/i18n_catalog_vignette.py",
+      "size": 3096,
+      "sha256": "812d130c01daba1300eceec40119be2eb86e9d040f08bf4acdcce08cc07df1fe"
+    },
+    {
+      "path": "lumen/i18n_catalog_white_balance.py",
+      "size": 3848,
+      "sha256": "ccd3549e225394af54dc45f07a568795c09da324366a06b3e7898ba0cdbb6d09"
+    },
+    {
+      "path": "lumen/i18n_catalog_window_animation.py",
+      "size": 6247,
+      "sha256": "28af8186fe1e454b95fa48c6a95d129186f7df4ebf231eca6b145353d90fba72"
+    },
+    {
+      "path": "lumen/i18n_errors.py",
+      "size": 3470,
+      "sha256": "c4cb37c1aa6f51d4bc0f9824fb3fffebcab112e07ec14fe97c34e6e31b8d3902"
+    },
+    {
+      "path": "lumen/i18n_widgets.py",
+      "size": 12804,
+      "sha256": "97b939a2eec33c9fb03ac31ae28db1cfa4d82c5b52f5712e923b61eeb040ad0e"
+    },
+    {
+      "path": "lumen/linked_av.py",
+      "size": 8683,
+      "sha256": "edf667e1df981cc7493d5cfc59fbca4f147d4dc37f00e053836f2f619d9e8068"
+    },
+    {
+      "path": "lumen/linked_av_audio_roll.py",
+      "size": 9764,
+      "sha256": "a38a05e3788f84845fff4f2efbe6d45e7f481a9c59ebd9b9809984adab6b3de1"
+    },
+    {
+      "path": "lumen/linked_av_roll.py",
+      "size": 6401,
+      "sha256": "16fb8910bd9f59637f5fc64be75ca35d347ccbdae916118d46f40fd069ccbf45"
+    },
+    {
+      "path": "lumen/linked_av_split.py",
+      "size": 15074,
+      "sha256": "08dea2ea4f2f09e3c2dd4edf05939ba462df20cc93438288f176672a959c5cb7"
+    },
+    {
+      "path": "lumen/linked_av_trim.py",
+      "size": 5317,
+      "sha256": "dfff919b97f9ceec013cc5857d1b4d94ae234087eec6a45ba2657402c48f4581"
+    },
+    {
+      "path": "lumen/local_ai.py",
+      "size": 7249,
+      "sha256": "19f9ca65e0066c61fc587f719d6f50f99fe2e39668f8937e765f2e189ace60cd"
+    },
+    {
+      "path": "lumen/loudness_proposal.py",
+      "size": 12556,
+      "sha256": "6dc9c7316f1bf852c7029cd0e25a6f19aa7b8cace9e058403e8682ad865dde5e"
+    },
+    {
+      "path": "lumen/main.py",
+      "size": 1175,
+      "sha256": "1060f90570455ef562443cd408a4113f872118689ecaa08a730f78bc68a8f69e"
+    },
+    {
+      "path": "lumen/media.py",
+      "size": 7358,
+      "sha256": "b8ae8a379d646e3065baf4af0e1957de230c591be190edd62dc11defd4ada1e3"
+    },
+    {
+      "path": "lumen/model.py",
+      "size": 160567,
+      "sha256": "fd537ca34622ea8ea41e67073b6a25c336ab254ff715185955af631f7131ccd1"
+    },
+    {
+      "path": "lumen/online_speech.py",
+      "size": 15472,
+      "sha256": "d049c04bee960f724dff19cdcb789bdf0c11069338e294f7e8572f1665e63380"
+    },
+    {
+      "path": "lumen/online_voice_catalog.py",
+      "size": 5316,
+      "sha256": "79e12f2a202505264be6c7f6f7469455fa7f1067c4699aa046909f26993b6b30"
+    },
+    {
+      "path": "lumen/overlay_render.py",
+      "size": 12954,
+      "sha256": "c8843121921746a74a03efa06ab4284edc397bed3ac183e9860ce013806be706"
+    },
+    {
+      "path": "lumen/preview_color.py",
+      "size": 11871,
+      "sha256": "04a79f5d1ebf52bd804a51a15ade5b6718a1058a7873e7898a5dc26434ed85bd"
+    },
+    {
+      "path": "lumen/project_recovery.py",
+      "size": 28223,
+      "sha256": "9d2122fb9fd6d897a8fb37e362688f6285364a49d1a26aa0f12ec03b84555e6b"
+    },
+    {
+      "path": "lumen/qualifier.py",
+      "size": 38879,
+      "sha256": "d4e2837f3acc7595a0f37b9f80016ccbb78f23a61b789095a0e4bdb2a52b81ad"
+    },
+    {
+      "path": "lumen/qualifier_overlay.py",
+      "size": 1214,
+      "sha256": "cd2bf61716a4f16992bbb1725f86ccf88589f855c04d46e26e6e4502d7528280"
+    },
+    {
+      "path": "lumen/qualifier_picker.py",
+      "size": 10591,
+      "sha256": "84383000414a4dd977b71dcd9120c22055e3adad54661a0a76d96d3208f7070d"
+    },
+    {
+      "path": "lumen/qualifier_viewport.py",
+      "size": 7687,
+      "sha256": "cd149f8003c46460f68146ac09968b97addb0718b4508c54f69820aa412d6e19"
+    },
+    {
+      "path": "lumen/qualifier_window_handles.py",
+      "size": 5830,
+      "sha256": "ae0e1ca1f16004d764165a3324ca1c1a27147ec1f35cbe555f26530ba7514a94"
+    },
+    {
+      "path": "lumen/render.py",
+      "size": 51244,
+      "sha256": "30c3e231583cb12cc262be35bdb7cf70580ff7bbd42c4d14c846653b23a400e0"
+    },
+    {
+      "path": "lumen/restoration.py",
+      "size": 11124,
+      "sha256": "68a46f4939ec403ffb65286ccc05dbe2c99db52f55710ba10739f825ed21e995"
+    },
+    {
+      "path": "lumen/restoration_settings.py",
+      "size": 1748,
+      "sha256": "7609ef3901f1140793dced6331011f625424a087c24f1c0bbd4c09cf107363e9"
+    },
+    {
+      "path": "lumen/restoration_smoke.py",
+      "size": 16475,
+      "sha256": "b5a74642010780ea5f6f4895a048c7196463cfddfa527ba5b3aed8a5e6a72dd4"
+    },
+    {
+      "path": "lumen/ripple_delete.py",
+      "size": 8238,
+      "sha256": "c03284161d2865afb9ee281ce54619ceaefce27ee0ce9f94eaa37439bb5f2df1"
+    },
+    {
+      "path": "lumen/selective_color.py",
+      "size": 7361,
+      "sha256": "47d19038480e854a05c07abf1fc92f0655b1bb867df0d6e4f5061403ac771757"
+    },
+    {
+      "path": "lumen/self_test.py",
+      "size": 32554,
+      "sha256": "8a341716a72c00c93e54bbc51c083769a42f4c5d3993f857028fbc6c6e0093f0"
+    },
+    {
+      "path": "lumen/semantic_search.py",
+      "size": 17086,
+      "sha256": "0cb8c8b8669e84bf4e74262e8bc178908e1e9dab6c81837256a394c73a94c45d"
+    },
+    {
+      "path": "lumen/semantic_search_worker.py",
+      "size": 5781,
+      "sha256": "8025ac6e21000705a1d12d3bb71cbfa65c2b2f6ace2aa35682f191ae85e0b28a"
+    },
+    {
+      "path": "lumen/shortcuts.py",
+      "size": 26090,
+      "sha256": "5e1548e8dcb9d40b841df55c66676c1d039ca1d3e7378c381b911651b10b113c"
+    },
+    {
+      "path": "lumen/sound_library.py",
+      "size": 30485,
+      "sha256": "115ca6d84135c916754fcbde7606810047edf79bbb949714fb17a3db54c6d0e8"
+    },
+    {
+      "path": "lumen/sound_sources.py",
+      "size": 1674,
+      "sha256": "a31413c168ec1571f501806e901cb7406f923e818755776d6388625583f5ef88"
+    },
+    {
+      "path": "lumen/source_audio_reattach.py",
+      "size": 10971,
+      "sha256": "50f143202b28995c84c58ff9efdf5981e0534a45c081f7228e9c74dc332ba5fb"
+    },
+    {
+      "path": "lumen/source_audio_separation.py",
+      "size": 9411,
+      "sha256": "f7afb38e4bf81873ce5314ff479d3972bccab138f053d51e0e5fa00913b694ad"
+    },
+    {
+      "path": "lumen/source_insert.py",
+      "size": 17176,
+      "sha256": "f8318ef97bcbb6a0b962f52a326b207052499de3ccc69927e696a3910d22faf8"
+    },
+    {
+      "path": "lumen/source_overwrite.py",
+      "size": 13882,
+      "sha256": "7ac9e449418f8730935c0d01a154e3f092bbbfccd56a5c169601c5446e296721"
+    },
+    {
+      "path": "lumen/source_range_verification.py",
+      "size": 7551,
+      "sha256": "5825db681d2dd445792cc7ba26f6dc1d78213b89cb7348f5e0506f3c57deb10f"
+    },
+    {
+      "path": "lumen/source_ranges.py",
+      "size": 6817,
+      "sha256": "078d4cda170926e2ffa95f74c36e57b53b34bb8a34aee332640522884755fc81"
+    },
+    {
+      "path": "lumen/source_viewer.py",
+      "size": 73345,
+      "sha256": "bae497f7c1decb0323d824373aea83f7a8a29bffe59e66d637f9e6a8f59200b6"
+    },
+    {
+      "path": "lumen/stabilization_analysis.py",
+      "size": 31443,
+      "sha256": "3bd5e5f0c41f51badfdfa26608b11c80242777e3fe53458ccc4047735ff6ab4b"
+    },
+    {
+      "path": "lumen/stabilization_math.py",
+      "size": 18588,
+      "sha256": "9821562a24140726bd2505b6c5de089dd50804fc7e3c744752040e8a7f32ad82"
+    },
+    {
+      "path": "lumen/stabilization_render.py",
+      "size": 4388,
+      "sha256": "b363c56c43e976be12465f75b9121d7b539fee93486d7815bab6ede73748231d"
+    },
+    {
+      "path": "lumen/stabilization_settings.py",
+      "size": 2318,
+      "sha256": "8553a726060089b1c02b338d402a833cd783a08283005aaa80b300434ccf0736"
+    },
+    {
+      "path": "lumen/stabilization_smoke.py",
+      "size": 10539,
+      "sha256": "014074d1772abeb165a7bc225389bcad8baf1bff5d5ae3be2f228887e036f46c"
+    },
+    {
+      "path": "lumen/sticker_assets.py",
+      "size": 22383,
+      "sha256": "4eee4600fe9b6fddbf6701f1c898acb0179ebd377cf06b8d81555d77aaa1710e"
+    },
+    {
+      "path": "lumen/subtitle_ai.py",
+      "size": 16345,
+      "sha256": "f36b31d40627106ef70f7af42dca1d2bd6811b32785ecb3ae5a4ae6787ddaf45"
+    },
+    {
+      "path": "lumen/subtitles.py",
+      "size": 5677,
+      "sha256": "0fbfff2b3332d51a3543c862e72f75af06620d540acf504b697cd5fd4eea6693"
+    },
+    {
+      "path": "lumen/timeline_markers.py",
+      "size": 4654,
+      "sha256": "4bb19adc691e84eafcb3cb960316a9d358d0011f261a4c234272e6bc29738506"
+    },
+    {
+      "path": "lumen/timeline_participation.py",
+      "size": 2125,
+      "sha256": "be559cc560fa9820ff992cca6472fff8820139822b592cfe09e1befd2c710fa6"
+    },
+    {
+      "path": "lumen/timing.py",
+      "size": 6963,
+      "sha256": "62dfad1e8f4552ad8510eeab9bd19dd0c8f07d9045dddf168496ad9d3dcd27ae"
+    },
+    {
+      "path": "lumen/tts.py",
+      "size": 17579,
+      "sha256": "0795305f9414528c00681df867a012fbdc3f1f4d42b7dca7c292de12e32586ca"
+    },
+    {
+      "path": "lumen/tts_text_review.py",
+      "size": 876,
+      "sha256": "c095e88a4a85deb676838cc9e0b55d045e2837841f1e9c6b38d7e8406f4c3ef9"
+    },
+    {
+      "path": "lumen/tts_worker.py",
+      "size": 4095,
+      "sha256": "1fa0e9f5841bd641158bcb84f705526f8548a1d911d4b4b374bc664e8d3265d3"
+    },
+    {
+      "path": "lumen/ui.py",
+      "size": 173055,
+      "sha256": "11df7c2895bea6f2594a9fb0c34b8d006389041382c0a41666bd4d89a04069ad"
+    },
+    {
+      "path": "lumen/ui_ai.py",
+      "size": 22686,
+      "sha256": "b4c91f9f87ebc1bac059e54717c8f41fb7010a6f6d285b44dfa934db84b17bc8"
+    },
+    {
+      "path": "lumen/ui_api_settings.py",
+      "size": 14035,
+      "sha256": "7f7a8bc7d1addaf227fb81adef4c1551d5eed0f06db6a8661071d685f7126929"
+    },
+    {
+      "path": "lumen/ui_audio_analysis.py",
+      "size": 17663,
+      "sha256": "283443392ced2450347cbf4b316b657b6210f275a320400ea4b7e04ca2dcbbc7"
+    },
+    {
+      "path": "lumen/ui_audio_freshness.py",
+      "size": 2844,
+      "sha256": "5eb7344960f97d167d49e29fbaf19caa95ba82d547a32a6aaf6ceec9bea9082e"
+    },
+    {
+      "path": "lumen/ui_audio_gain.py",
+      "size": 18662,
+      "sha256": "d55b56cadbb3f700376a7c64933e55f5444e177be172905c3f1d5706303a4c8a"
+    },
+    {
+      "path": "lumen/ui_audio_gain_timeline.py",
+      "size": 12116,
+      "sha256": "fd0dc5ae725005e51d40712c31b45eee01332ddbd6514bccfd6f71117b20b290"
+    },
+    {
+      "path": "lumen/ui_audio_waveform.py",
+      "size": 5711,
+      "sha256": "d915555674b94bed7cd6c5910e14b855cf13a15ac0379c2ab70b1a399019bb3e"
+    },
+    {
+      "path": "lumen/ui_captions.py",
+      "size": 50894,
+      "sha256": "b978a90e337c3fafd42fa1af65cdafd617724ff7f3f902ce54ffd996a0fcad30"
+    },
+    {
+      "path": "lumen/ui_clip_copy_paste.py",
+      "size": 17779,
+      "sha256": "ccf684283fd4e8d12697b07c1351a14eb9ec2edaec007a8bf7bb84220f2ff1d0"
+    },
+    {
+      "path": "lumen/ui_clip_groups.py",
+      "size": 3647,
+      "sha256": "3f9ffa7ea22a2e3dcc4fd0d126d7847612b9cb401515a7f3fb33b85786c9cc3c"
+    },
+    {
+      "path": "lumen/ui_clip_motion.py",
+      "size": 15545,
+      "sha256": "74ea85a67c01fc82cc86d2a691c9e8961bc5cf98112d0ee19914347d65408831"
+    },
+    {
+      "path": "lumen/ui_color_export.py",
+      "size": 9882,
+      "sha256": "38c5f8f0648d65bcf5026f0314f39cc2fc25a26decbc5932fa82dc915da1320c"
+    },
+    {
+      "path": "lumen/ui_color_input.py",
+      "size": 6572,
+      "sha256": "66990c6f9e71d7f820f1018b3ec47b681370e59c1a9c12d33e5be320d617be72"
+    },
+    {
+      "path": "lumen/ui_color_picker.py",
+      "size": 10185,
+      "sha256": "fb00178c0fc18ba8f0512203540124c5944dbe9be0740209b7faa7d63c098c13"
+    },
+    {
+      "path": "lumen/ui_color_reference.py",
+      "size": 26216,
+      "sha256": "87baa18e94f0d23fb94c47004c2ac5c7f89bc4efbb8df503e4be04bc367edf6f"
+    },
+    {
+      "path": "lumen/ui_component_setup.py",
+      "size": 17086,
+      "sha256": "154644c96495893d96a1fffd6f03391c68438c272f23b98afd02b6fcdbbd5399"
+    },
+    {
+      "path": "lumen/ui_controlled_assistant.py",
+      "size": 16242,
+      "sha256": "8238f63632cb31fe675b8333a94bf4f8e54be0467f8b669265e05ebc73eb80b8"
+    },
+    {
+      "path": "lumen/ui_effects.py",
+      "size": 33048,
+      "sha256": "914e9f0b799ffc76e9ad75d0dff7316db258fad02de46e03553fc933ca0f463e"
+    },
+    {
+      "path": "lumen/ui_final_frame_preview.py",
+      "size": 22624,
+      "sha256": "2e459a305d959bf084c3612788b35ff0d9cc62156523229c3c0c2f3ef7b1a8e6"
+    },
+    {
+      "path": "lumen/ui_frame_grade_preview.py",
+      "size": 20550,
+      "sha256": "157ac8d3e101617dc2b42cd9dc58fddab9822efb65cb1ffe71d7d4aba4591519"
+    },
+    {
+      "path": "lumen/ui_gap_close.py",
+      "size": 12197,
+      "sha256": "19d277a4ce7d631899917ad2fcd5cf7a0f4b0b67d8f5b784486e2f880656b647"
+    },
+    {
+      "path": "lumen/ui_grade_transfer.py",
+      "size": 5521,
+      "sha256": "3af24fd1555de62f48de2867760bc8f424bae2c25277eea69826d014a50dee57"
+    },
+    {
+      "path": "lumen/ui_help.py",
+      "size": 6545,
+      "sha256": "cd9405cecdd8a12adb28dc7b93ae4037d24de6e039c95e5adb9ad606af2a0b8a"
+    },
+    {
+      "path": "lumen/ui_interval_preview.py",
+      "size": 2308,
+      "sha256": "12743beb586ffe59726a20f771ad9ab8c1f636cf653172b79c3f3cf00651b2d4"
+    },
+    {
+      "path": "lumen/ui_keyframe_timeline.py",
+      "size": 11852,
+      "sha256": "19b9c1e04bff6806a70946d1111cc4190943d0af8e259c3b01f76dba8f49b472"
+    },
+    {
+      "path": "lumen/ui_linked_audio_roll.py",
+      "size": 14802,
+      "sha256": "0f36634623a31bae9a97e6c253c86cc601ab7c18ed5145eb5354ceea12ed5507"
+    },
+    {
+      "path": "lumen/ui_linked_av.py",
+      "size": 29730,
+      "sha256": "de2c3e6c827a3c5422ea744f5305d3db92179794c30de4f6e664f7e20d26e2ae"
+    },
+    {
+      "path": "lumen/ui_linked_av_roll.py",
+      "size": 8772,
+      "sha256": "f984e74afdf7d45c327e3fab0303e1b620f40a82a84881eabba581f1878d5f97"
+    },
+    {
+      "path": "lumen/ui_linked_av_split.py",
+      "size": 14966,
+      "sha256": "76a8731f759a87beb7383a2a94cb544554cbe2acca1fcaef716b296d809892a8"
+    },
+    {
+      "path": "lumen/ui_loudness_proposal.py",
+      "size": 13284,
+      "sha256": "3da111e28524e6297d091ad3f0ebd51297408225e459cec95e1e6f731e77aea5"
+    },
+    {
+      "path": "lumen/ui_master_gain.py",
+      "size": 7245,
+      "sha256": "b7de2677e61da63e12d38b56fc775ce3d2d7278ba51a9c33cf16ee8b9df8e243"
+    },
+    {
+      "path": "lumen/ui_media_bins.py",
+      "size": 23377,
+      "sha256": "8dbefd2b744baf418802360a12984a4f5267eb5abfedda406db3f8c4a6008fe0"
+    },
+    {
+      "path": "lumen/ui_online_voices.py",
+      "size": 3444,
+      "sha256": "71bf42abcf5672e1b54da4d2d59ae25d78fc74a30f0a85693297bd9eebff81e9"
+    },
+    {
+      "path": "lumen/ui_qualifier.py",
+      "size": 75617,
+      "sha256": "73c039893cdd445ce8c98e1bd568ba7c2c4e68f523b3bdaf5257253e159c8d6d"
+    },
+    {
+      "path": "lumen/ui_recovery.py",
+      "size": 11822,
+      "sha256": "a088ad3034eeabde69691891524d9f05fb36edf3ddea6a5a6cccb84732f1129a"
+    },
+    {
+      "path": "lumen/ui_ripple_delete.py",
+      "size": 10860,
+      "sha256": "6419f2d6218e494e02f0b7a7fa1c019f5b4d026909e3b69d2915a7c20b4ac039"
+    },
+    {
+      "path": "lumen/ui_selective_color.py",
+      "size": 18386,
+      "sha256": "954252d29a076886af41c71d56c6c0e5b8ca72e838811263df05209b8cb73077"
+    },
+    {
+      "path": "lumen/ui_shortcuts.py",
+      "size": 24811,
+      "sha256": "eb6d23fa366b87c0e128f39e780b0fd00d0392b847c9805d340b07619f07c476"
+    },
+    {
+      "path": "lumen/ui_sounds.py",
+      "size": 15474,
+      "sha256": "658489ddb018cc73df12735925eaa2ba3aa312dd705d48d487ded657b0689fb9"
+    },
+    {
+      "path": "lumen/ui_source_audio_reattach.py",
+      "size": 14503,
+      "sha256": "1fb2dd5a566fbd48ac59e96c2984205e157bed973a9f7d3a2b68a0e4962765e4"
+    },
+    {
+      "path": "lumen/ui_source_audio_separation.py",
+      "size": 16680,
+      "sha256": "b74b889f90f671f6658110cb7d981b0b310fcd16a88fcd9a03e9e768479c5047"
+    },
+    {
+      "path": "lumen/ui_source_ranges.py",
+      "size": 11319,
+      "sha256": "d4c316d3f923d7d0cfe08ec51e172dd94a3e1e976f952611b82eab60dd2405bf"
+    },
+    {
+      "path": "lumen/ui_source_viewer.py",
+      "size": 45221,
+      "sha256": "139c782b261568022add25517c27eecfbada419ab0876a07d6b95a5e17353293"
+    },
+    {
+      "path": "lumen/ui_style.py",
+      "size": 26738,
+      "sha256": "87a5d042260b51765a5e4ecf61757b84b6185a04e76d2496f8bd2df54fe399fd"
+    },
+    {
+      "path": "lumen/ui_timeline_marker_band.py",
+      "size": 4338,
+      "sha256": "7aa543c14c01ea1becb4bc0a12c7caa5090f7d14d68e729acfcbe92ca13b3fd6"
+    },
+    {
+      "path": "lumen/ui_timeline_markers.py",
+      "size": 27049,
+      "sha256": "3515be3848a90bea643d6593a0af7dd7b8caef977da149f7c9d81fe122accb67"
+    },
+    {
+      "path": "lumen/ui_track_edit_locks.py",
+      "size": 8483,
+      "sha256": "27f71b5723149d53adcd6edd3ab5957e7b0e099cc9a11408214744b97c09c68f"
+    },
+    {
+      "path": "lumen/ui_video_transition.py",
+      "size": 12899,
+      "sha256": "65756d5fbe1279606821d34390f890a144f62ef063313fa60318b1273b5fce06"
+    },
+    {
+      "path": "lumen/ui_white_balance.py",
+      "size": 8443,
+      "sha256": "bf13b51ee06a4634ba71c1df05f601ce56472f45a8b6b32e85883aa7de96f32c"
+    },
+    {
+      "path": "lumen/ui_window_animation.py",
+      "size": 35720,
+      "sha256": "1e7a7e397a56a42ff5d44c54634c12231e6baf9e60b30f5565275dc07a3ace1c"
+    },
+    {
+      "path": "lumen/ui_workspace.py",
+      "size": 10372,
+      "sha256": "42d8fcf9cf27aa31dd88c3db74bc9bd9082e1be5caa6fc0f413a8ff64c2d2969"
+    },
+    {
+      "path": "lumen/video_transition.py",
+      "size": 5601,
+      "sha256": "aff419afd2908c8d17f7fd4d4a651944926586cd17e08934aa48d747efed95b1"
+    },
+    {
+      "path": "lumen/video_transition_preflight.py",
+      "size": 3503,
+      "sha256": "3a449e4780990e0dbb4688f0f5b66021cebd1cf7a53df9b40ba01821b980ed49"
+    },
+    {
+      "path": "lumen/video_transition_render.py",
+      "size": 11139,
+      "sha256": "9a5835bc368770291ac73286e522b162f75dcc6bd393847a49105713d01a8bd6"
+    },
+    {
+      "path": "lumen/video_transition_sources.py",
+      "size": 14468,
+      "sha256": "ace4c52620b3bf25d803c10f09fe73b34031ea460c3e6f67f249d36d0f159817"
+    },
+    {
+      "path": "lumen/vignette_shape.py",
+      "size": 2255,
+      "sha256": "5903a8686379bef2e885a2fe79a0b33288114b7e5c2cc80a5fbe77b13671c61e"
+    },
+    {
+      "path": "lumen/voice_catalog.py",
+      "size": 7773,
+      "sha256": "044130e28be303c97b95642c61cb507188d3dd236cedacad78582c649c67d8b3"
+    },
+    {
+      "path": "lumen/white_balance.py",
+      "size": 2772,
+      "sha256": "9442c767bac7735734a2e376bd1a80b682ac6657be7f2d13674725e3860e3286"
+    },
+    {
+      "path": "lumen/window_animation.py",
+      "size": 4119,
+      "sha256": "bccf59011b76c296f39c790028ed64120fbe16568a656fc53ea5c6d18bb4c9f8"
+    }
+  ]
+}

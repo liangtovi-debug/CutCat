@@ -1,0 +1,22 @@
+{
+  "numpy": "2.2.4",
+  "schema": 25,
+  "source": "unchanged v25 production snapshot",
+  "source_sha256": {
+    "color.py": "9cd19971a9a0acc285844df1fdbbf249fa779e6a198be139589cbd01856f065e",
+    "model.py": "070399381b90028264aa5a35f29f4796178f5d28dc6b3f8073ce52b1fcffeaa4",
+    "qualifier.py": "2f00813de9372abcaacced5f2e3e37adc0c5418b9ed52401e6853d83c2a3efb6",
+    "selective_color.py": "33f45cffeff465704c0c2f703d786703245f93d7670e078d95f60c3931cabf11"
+  },
+  "fixture_sha256": "2060811035977fd6781de6679efec97740820539b2b0f643450c6c4520923951",
+  "cases": 18,
+  "rgb_shape": [
+    17,
+    19,
+    3
+  ],
+  "capture_script": "capture_contrast_v25.py",
+  "generation": "Captured in a fresh Python process importing only the unchanged schema-25 production checkout. The capture script asserts source module location, schema number, and absence of contrast_pivot.",
+  "comparison": "Exact float32 bit patterns, including default contrast pivot across extended-range inputs, neutral and non-neutral contrast, all three input encodings, primary and RGB curves, selective hue curves, qualifier sets/window/matte operations, and synthetic LUT strengths 0, 0.37 and 1.",
+  "platform_limit": "Captured with NumPy 2.2.4 on Linux. Native Windows/macOS execution is separate verification; no native result is implied by this fixture."
+}

@@ -1,0 +1,250 @@
+{
+  "binary": "/usr/bin/ffmpeg",
+  "binary_sha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+  "version": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "font_sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e",
+  "dimensions": [
+    1024,
+    128
+  ],
+  "color_domain": "Nonlinear (transfer-encoded) BT.709 Y\u2032CbCr; limited range. Not linear-light compositing or HDR.",
+  "native": {
+    "automatic_converters_in_log": false,
+    "disabled_frames_byte_exact": true,
+    "active_frame_changed_samples": 7724,
+    "active_frame_outside_caption": [
+      {
+        "plane": "Y",
+        "outside_tested_samples": 65536,
+        "changed_samples": 0,
+        "maximum_absolute_error": 0,
+        "unique_top64": 1024,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 49152
+      },
+      {
+        "plane": "U",
+        "outside_tested_samples": 32768,
+        "changed_samples": 0,
+        "maximum_absolute_error": 0,
+        "unique_top64": 1024,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 24576
+      },
+      {
+        "plane": "V",
+        "outside_tested_samples": 32768,
+        "changed_samples": 0,
+        "maximum_absolute_error": 0,
+        "unique_top64": 1024,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 24576
+      }
+    ]
+  },
+  "forced_8bit_negative_control": {
+    "automatic_converters_in_log": true,
+    "outside_caption": [
+      {
+        "plane": "Y",
+        "outside_tested_samples": 65536,
+        "changed_samples": 49152,
+        "maximum_absolute_error": 3,
+        "unique_top64": 256,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 0
+      },
+      {
+        "plane": "U",
+        "outside_tested_samples": 32768,
+        "changed_samples": 24576,
+        "maximum_absolute_error": 3,
+        "unique_top64": 256,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 0
+      },
+      {
+        "plane": "V",
+        "outside_tested_samples": 32768,
+        "changed_samples": 24576,
+        "maximum_absolute_error": 3,
+        "unique_top64": 256,
+        "source_unique_top64": 1024,
+        "low_two_bits_nonzero": 0
+      }
+    ]
+  },
+  "colors": {
+    "red_unset": {
+      "solid_yuv": [
+        325,
+        362,
+        961
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 325,
+      "sha256": "780b5fe8285e768d7f045d1bd93270298da5f9e39b8bbd86e80f3ddf649a4463"
+    },
+    "red_before709": {
+      "solid_yuv": [
+        250,
+        411,
+        961
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 250,
+      "sha256": "f413b844d3f380ba08c9d5333da5d7b047b1346b8c03634532541b5bf604275a"
+    },
+    "red_after709": {
+      "solid_yuv": [
+        325,
+        362,
+        961
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 325,
+      "sha256": "780b5fe8285e768d7f045d1bd93270298da5f9e39b8bbd86e80f3ddf649a4463"
+    },
+    "red_before601": {
+      "solid_yuv": [
+        325,
+        362,
+        961
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 325,
+      "sha256": "780b5fe8285e768d7f045d1bd93270298da5f9e39b8bbd86e80f3ddf649a4463"
+    },
+    "green709": {
+      "solid_yuv": [
+        690,
+        168,
+        106
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 690,
+      "sha256": "c13bf8af61d2b9c187d1c386a0cd8ee27ce9365df0fb3410979f9641b265ff82"
+    },
+    "blue709": {
+      "solid_yuv": [
+        127,
+        961,
+        472
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 127,
+      "sha256": "790785a9dcb81404989401ec835d39649fae789fc289ee2eacdb79cb6f9fb3b0"
+    },
+    "white709": {
+      "solid_yuv": [
+        939,
+        514,
+        514
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 939,
+      "sha256": "b23f69b8854de0b307b6e437ae10096dc81335251446fdcd67c44eb47d7027af"
+    },
+    "gray128709": {
+      "solid_yuv": [
+        503,
+        514,
+        514
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 503,
+      "sha256": "417a0bdb15be7cf516e64b3a3434c00e9de438ac244cfda69395d16988eaf9c8"
+    },
+    "white_half709": {
+      "solid_yuv": [
+        498,
+        512,
+        512
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 498,
+      "sha256": "de3f2b0fc793334838bbc7a273a1fbd80354f981589d2aebfddd189fdd379953"
+    },
+    "white_half_linear_tag": {
+      "solid_yuv": [
+        498,
+        512,
+        512
+      ],
+      "pixel": [
+        24,
+        16
+      ],
+      "max_luma": 498,
+      "sha256": "de3f2b0fc793334838bbc7a273a1fbd80354f981589d2aebfddd189fdd379953"
+    }
+  },
+  "blend_math": {
+    "native_opaque_white_source": 943,
+    "opaque_coverage_weight": 0.99609375,
+    "opaque_white_over_64_predicted": 939,
+    "opaque_white_over_64_observed": 939,
+    "half_white_over_64_predicted": 498,
+    "half_white_over_64_observed": 498,
+    "transfer_tag_changes_pixels": false
+  },
+  "representative_native_formats": {
+    "yuv420p": true,
+    "yuv422p": true,
+    "yuv444p": true,
+    "yuv420p9le": true,
+    "yuv422p9le": true,
+    "yuv444p9le": true,
+    "yuv420p10le": true,
+    "yuv422p10le": true,
+    "yuv444p10le": true,
+    "yuv422p12le": true,
+    "yuv444p12le": true,
+    "yuv422p14le": true,
+    "yuv444p14le": true,
+    "yuv422p16le": true,
+    "yuv444p16le": true,
+    "gbrp10le": true,
+    "gbrp12le": true,
+    "gbrp16le": true,
+    "gbrap16le": true,
+    "rgb24": true,
+    "rgb48le": true,
+    "rgba64le": false,
+    "gray10le": true,
+    "gray16le": true,
+    "yuv422p10be": false,
+    "gbrp16be": false,
+    "nv12": true,
+    "p010le": true,
+    "yuyv422": false
+  }
+}

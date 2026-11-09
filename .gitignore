@@ -1,0 +1,35 @@
+# Python environments and generated metadata
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Native build products and draft packages
+build/
+dist/
+*.spec
+
+# Local media caches and renders
+.cache/
+cache/
+.lumen-cache/
+preview-cache/
+exports/
+*.partial
+*.partial.mp4
+
+# Editor and OS-local state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated validation evidence is delivered separately, never source-uploaded
+artifacts/
+
+# Local archive hash manifests are regenerated per delivery
+SOURCE_MANIFEST.json

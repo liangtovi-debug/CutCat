@@ -1,0 +1,6 @@
+"""Bounded build-support documentation."""
+ZH_CN = {'Current bounded tools also include clip transform keyframes, manually animated color windows (not tracking), and H.264 8-bit or ProRes 422 HQ 10-bit SDR export. Preview and scopes remain 8-bit. Each export profile retains its own content restrictions and runtime checks. The audio report can measure a separate constant-gain proposal before you explicitly apply it; this is not dynamic normalization or limiting. Native Windows/macOS release packages and hardware behavior are not verified by local source tests. This build does not claim paid-editor feature parity.': '当前还提供有限范围的片段变换关键帧、手动动画调色窗口（不是跟踪），以及 H.264 8 位或 ProRes 422 HQ 10 位 SDR 导出。预览与示波器仍为 8 位。每种导出格式均保留各自的内容限制与运行时检查。音频报告可以先实测独立的恒定增益建议，再由你明确应用；这不是动态响度归一化或限幅。本地源码测试不代表已验证 Windows/macOS 原生发布包或硬件表现。本版本不宣称与付费编辑器功能对等。', 'Build support and limitations': '版本支持范围与限制'}
+
+ZH_CN.update({
+'Media bins organize project entries only: nested bins, scoped name/path search, type/usage filters and explicit moves. Only empty bins and unused media entries can be removed; original files are never moved or deleted. This is not Smart Bins, semantic search or proxies.': '素材箱只整理工程条目：嵌套素材箱、当前范围名称／路径搜索、类型／使用情况筛选及显式移动。只能删除空素材箱或移除未使用的素材条目；原始文件绝不移动或删除。这不是智能素材箱、语义搜索或代理。'
+})

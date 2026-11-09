@@ -1,0 +1,7 @@
+{
+  "source": "/workspace/scratch/d7aeb60a9f55/cutcat-asymmetric-feathers/source/lumen-edit/lumen/qualifier.py",
+  "sha256": "c86cb94edb1626282683cf02b7f67a6ec93aefe41a62a9d7d9aa3d95493fb706",
+  "cases": 5,
+  "seed": 258924,
+  "capture": "Separate interpreter importing untouched baseline; actual mask and correction outputs."
+}

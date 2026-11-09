@@ -1,0 +1,41 @@
+"""Allowlisted measured-gain errors; never translate user paths or content."""
+ZH_CN = {
+    'The audio report uses an unsupported analysis algorithm.': '音频报告使用了不支持的分析算法。',
+    'A measured loudness report is required; silence, short and below-gate audio cannot be proposed.': '需要有效的响度实测报告；无法为静音、过短或低于响度门限的音频生成建议。',
+    'The audio report does not contain a supported measured stereo timeline.': '音频报告不包含受支持的立体声时间线实测结果。',
+    'The report is missing stereo estimated true peaks.': '报告缺少立体声估算真峰值。',
+    'The estimated true-peak values are inconsistent.': '估算真峰值数值不一致。',
+    'The estimated true-peak units are inconsistent.': '估算真峰值单位不一致。',
+    'A non-silent estimated true peak is required.': '需要非静音的估算真峰值。',
+    'The report is missing immutable stereo sample measurements.': '报告缺少不可变的立体声采样实测数据。',
+    'The sample-peak and overload measurements are inconsistent.': '采样峰值与过载实测数据不一致。',
+    'The sample-peak units are inconsistent.': '采样峰值单位不一致。',
+    'The total overload count is inconsistent.': '过载总数不一致。',
+    'The first overload time is inconsistent.': '首次过载时间不一致。',
+    'The report has an overload time without overloaded samples.': '报告包含过载时间，但没有过载采样。',
+    'Current master gain is outside -96 to +24 dB.': '当前主输出增益超出 -96 至 +24 dB 范围。',
+    'Proposed master gain is outside -96 to +24 dB; it was not clamped.': '建议的主输出增益超出 -96 至 +24 dB 范围；未强制截取到范围内。',
+    'Quantized master gain is outside -96 to +24 dB.': '按步长取整后的主输出增益超出 -96 至 +24 dB 范围。',
+    'The timeline, media or decoder changed. Analyze again.': '时间线、媒体或解码器已更改。请重新分析。',
+    'The project exceeds the verification limits.': '项目超出验证限制。',
+    'The report identity is malformed or exceeds verification limits.': '报告标识格式错误或超出验证限制。',
+    'Sources exceed the verification size limit.': '源文件超出验证大小限制。',
+    'Audio source contents no longer match the measured report.': '音频源文件内容与实测报告不再匹配。',
+    'The report fingerprint or analysis pipeline no longer matches.': '报告指纹或分析流程不再匹配。',
+    'A verified loudness proposal is required.': '需要经过验证的响度建议。',
+    'The timeline changed after the gain proposal was measured.': '实测增益建议后，时间线已更改。',
+    'The proposed gain no longer matches the original report.': '建议增益与原始报告不再匹配。',
+    'The draft settings do not match the proposed gain.': '草稿设置与建议增益不匹配。',
+    'Draft sources or analysis pipeline differ from the original report.': '草稿源文件或分析流程与原始报告不一致。',
+    'The measured draft exceeds the estimated true-peak ceiling.': '实测草稿超出估算真峰值上限。',
+    'The timeline changed before draft analysis.': '分析草稿前，时间线已更改。',
+}
+for _label, _translation in {
+    'Integrated loudness': '综合响度', 'Estimated true peak': '估算真峰值',
+    'Estimated true peak dBTP': '估算真峰值 dBTP', 'Sample peak': '采样峰值',
+    'Sample peak dBFS': '采样峰值 dBFS', 'First overload time': '首次过载时间',
+    'Current master gain': '当前主输出增益', 'Target loudness': '目标响度',
+    'Estimated true-peak ceiling': '估算真峰值上限',
+}.items():
+    ZH_CN[f'{_label} must be a finite number.'] = f'{_translation}必须是有限数值。'
+EN = {key: key for key in ZH_CN}

@@ -1,0 +1,6 @@
+640x360 12 frames null16: 0.087 seconds total, 138.70 frames/s incl. startup
+640x360 12 frames native8: 0.092 seconds total, 130.28 frames/s incl. startup
+640x360 12 frames geq16: 1.866 seconds total, 6.43 frames/s incl. startup
+1920x1080 5 frames null16: 0.117 seconds total, 42.66 frames/s incl. startup
+1920x1080 5 frames native8: 0.172 seconds total, 29.14 frames/s incl. startup
+1920x1080 5 frames geq16: 5.931 seconds total, 0.84 frames/s incl. startup

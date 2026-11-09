@@ -1,0 +1,3627 @@
+{
+  "schema": 1,
+  "baseline_manifest": "301b38a910ba6acecea350a0d35d7c93624a93abfee73f00f4aaa0e72d8b2596",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "cpu_quota": "Unknown: /sys/fs/cgroup not exposed",
+  "raw_stage_and_composite": {
+    "cpu_count": 9,
+    "cpu_quota": "unknown: /sys/fs/cgroup absent",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "measurements": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 9.791902279946953,
+        "load_before": [
+          0.3798828125,
+          1.06396484375,
+          1.888671875
+        ],
+        "load_after": [
+          0.4755859375,
+          1.06103515625,
+          1.87890625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.632s stime=0.091s rtime=9.688s",
+          "bench: maxrss=122812KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 4.734441658947617,
+        "load_before": [
+          0.4755859375,
+          1.06103515625,
+          1.87890625
+        ],
+        "load_after": [
+          0.59814453125,
+          1.07666015625,
+          1.8798828125
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.006s stime=0.060s rtime=4.625s",
+          "bench: maxrss=149344KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 2.841556862986181,
+        "load_before": [
+          0.59814453125,
+          1.07666015625,
+          1.8798828125
+        ],
+        "load_after": [
+          0.87060546875,
+          1.12548828125,
+          1.8916015625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.904s stime=0.079s rtime=2.725s",
+          "bench: maxrss=198040KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 2.7512584810028784,
+        "load_before": [
+          0.87060546875,
+          1.12548828125,
+          1.8916015625
+        ],
+        "load_after": [
+          0.87060546875,
+          1.12548828125,
+          1.8916015625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.824s stime=0.056s rtime=2.644s",
+          "bench: maxrss=198040KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 4.820242140034679,
+        "load_before": [
+          0.87060546875,
+          1.12548828125,
+          1.8916015625
+        ],
+        "load_after": [
+          0.88134765625,
+          1.123046875,
+          1.88671875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.231s stime=0.078s rtime=4.705s",
+          "bench: maxrss=198040KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 9.927950015000533,
+        "load_before": [
+          0.88134765625,
+          1.123046875,
+          1.88671875
+        ],
+        "load_after": [
+          0.89990234375,
+          1.1181640625,
+          1.876953125
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.766s stime=0.082s rtime=9.809s",
+          "bench: maxrss=198040KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 9.405952009023167,
+        "load_before": [
+          0.89990234375,
+          1.1181640625,
+          1.876953125
+        ],
+        "load_after": [
+          0.916015625,
+          1.11376953125,
+          1.8671875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.272s stime=0.047s rtime=9.291s",
+          "bench: maxrss=198040KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 4.732033120002598,
+        "load_before": [
+          0.916015625,
+          1.11376953125,
+          1.8671875
+        ],
+        "load_after": [
+          1.0029296875,
+          1.12890625,
+          1.8681640625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=8.949s stime=0.056s rtime=4.623s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 2.6241881970199756,
+        "load_before": [
+          1.0029296875,
+          1.12890625,
+          1.8681640625
+        ],
+        "load_after": [
+          1.2431640625,
+          1.1767578125,
+          1.8798828125
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.204s stime=0.077s rtime=2.508s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 9.644092675996944,
+        "load_before": [
+          1.2431640625,
+          1.1767578125,
+          1.8798828125
+        ],
+        "load_after": [
+          1.20556640625,
+          1.17041015625,
+          1.8701171875
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.514s stime=0.048s rtime=9.540s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 4.951958728022873,
+        "load_before": [
+          1.20556640625,
+          1.17041015625,
+          1.8701171875
+        ],
+        "load_after": [
+          1.26953125,
+          1.1845703125,
+          1.87109375
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.398s stime=0.038s rtime=4.857s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 2.8359551659668796,
+        "load_before": [
+          1.26953125,
+          1.1845703125,
+          1.87109375
+        ],
+        "load_after": [
+          1.26953125,
+          1.1845703125,
+          1.87109375
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=10.041s stime=0.053s rtime=2.748s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 2.7799369579879567,
+        "load_before": [
+          1.26953125,
+          1.1845703125,
+          1.87109375
+        ],
+        "load_after": [
+          1.48828125,
+          1.2314453125,
+          1.8828125
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.896s stime=0.071s rtime=2.680s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 4.91083108598832,
+        "load_before": [
+          1.48828125,
+          1.2314453125,
+          1.8828125
+        ],
+        "load_after": [
+          1.529296875,
+          1.24462890625,
+          1.8837890625
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.273s stime=0.067s rtime=4.817s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 10.023053760000039,
+        "load_before": [
+          1.529296875,
+          1.24462890625,
+          1.8837890625
+        ],
+        "load_after": [
+          1.44775390625,
+          1.23583984375,
+          1.8740234375
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.896s stime=0.053s rtime=9.925s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 9.310776052996516,
+        "load_before": [
+          1.44775390625,
+          1.23583984375,
+          1.8740234375
+        ],
+        "load_after": [
+          1.37841796875,
+          1.2275390625,
+          1.8642578125
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.172s stime=0.058s rtime=9.212s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 4.661714723042678,
+        "load_before": [
+          1.37841796875,
+          1.2275390625,
+          1.8642578125
+        ],
+        "load_after": [
+          1.34765625,
+          1.2236328125,
+          1.859375
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=8.907s stime=0.058s rtime=4.571s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 2.5513955079950392,
+        "load_before": [
+          1.34765625,
+          1.2236328125,
+          1.859375
+        ],
+        "load_after": [
+          1.34765625,
+          1.2236328125,
+          1.859375
+        ],
+        "returncode": 0,
+        "sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+        "bytes": 9331200,
+        "bench": [
+          "bench: utime=9.118s stime=0.048s rtime=2.461s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 9.25650100898929,
+        "load_before": [
+          1.34765625,
+          1.2236328125,
+          1.859375
+        ],
+        "load_after": [
+          1.36767578125,
+          1.232421875,
+          1.85546875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.109s stime=0.051s rtime=9.132s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 4.7451188350096345,
+        "load_before": [
+          1.36767578125,
+          1.232421875,
+          1.85546875
+        ],
+        "load_after": [
+          1.57861328125,
+          1.27880859375,
+          1.8671875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=8.877s stime=0.081s rtime=4.611s",
+          "bench: maxrss=198172KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 2.6118503509787843,
+        "load_before": [
+          1.57861328125,
+          1.27880859375,
+          1.8671875
+        ],
+        "load_after": [
+          1.57861328125,
+          1.27880859375,
+          1.8671875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.242s stime=0.040s rtime=2.488s",
+          "bench: maxrss=218392KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 2.704179195978213,
+        "load_before": [
+          1.5322265625,
+          1.27392578125,
+          1.8623046875
+        ],
+        "load_after": [
+          1.5322265625,
+          1.27392578125,
+          1.8623046875
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.435s stime=0.046s rtime=2.596s",
+          "bench: maxrss=218448KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 4.679432983044535,
+        "load_before": [
+          1.5322265625,
+          1.27392578125,
+          1.8623046875
+        ],
+        "load_after": [
+          1.56982421875,
+          1.2861328125,
+          1.86328125
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=8.914s stime=0.052s rtime=4.567s",
+          "bench: maxrss=218448KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 8.997188684996217,
+        "load_before": [
+          1.56982421875,
+          1.2861328125,
+          1.86328125
+        ],
+        "load_after": [
+          1.48193359375,
+          1.2763671875,
+          1.853515625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=8.869s stime=0.055s rtime=8.886s",
+          "bench: maxrss=218492KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 9.560505274042953,
+        "load_before": [
+          1.48193359375,
+          1.2763671875,
+          1.853515625
+        ],
+        "load_after": [
+          1.4072265625,
+          1.2666015625,
+          1.84375
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.434s stime=0.053s rtime=9.446s",
+          "bench: maxrss=218556KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 4.6021617380320095,
+        "load_before": [
+          1.4072265625,
+          1.2666015625,
+          1.84375
+        ],
+        "load_after": [
+          1.455078125,
+          1.27880859375,
+          1.8447265625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=8.770s stime=0.053s rtime=4.483s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 2.824824597046245,
+        "load_before": [
+          1.455078125,
+          1.27880859375,
+          1.8447265625
+        ],
+        "load_after": [
+          1.455078125,
+          1.27880859375,
+          1.8447265625
+        ],
+        "returncode": 0,
+        "sha256": "6612533fdddc8cc8e2d1c2345a2df14e2bfd679663663ddd3fc80d0b85293c6c",
+        "bytes": 49766400,
+        "bench": [
+          "bench: utime=9.923s stime=0.073s rtime=2.718s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 9.201732270012144,
+        "load_before": [
+          1.455078125,
+          1.27880859375,
+          1.8447265625
+        ],
+        "load_after": [
+          1.384765625,
+          1.26904296875,
+          1.8349609375
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.065s stime=0.076s rtime=9.097s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 4.975645467988215,
+        "load_before": [
+          1.384765625,
+          1.26904296875,
+          1.8349609375
+        ],
+        "load_after": [
+          1.43408203125,
+          1.28125,
+          1.8359375
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.337s stime=0.095s rtime=4.863s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 2.9786907320376486,
+        "load_before": [
+          1.43408203125,
+          1.28125,
+          1.8359375
+        ],
+        "load_after": [
+          1.5595703125,
+          1.31005859375,
+          1.84228515625
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=10.302s stime=0.101s rtime=2.860s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 3.030941551027354,
+        "load_before": [
+          1.5595703125,
+          1.31005859375,
+          1.84228515625
+        ],
+        "load_after": [
+          1.5595703125,
+          1.31005859375,
+          1.84228515625
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=10.807s stime=0.070s rtime=2.919s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 4.937523746979423,
+        "load_before": [
+          1.5595703125,
+          1.31005859375,
+          1.84228515625
+        ],
+        "load_after": [
+          1.59521484375,
+          1.32177734375,
+          1.84326171875
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.303s stime=0.104s rtime=4.822s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 9.907691915053874,
+        "load_before": [
+          1.59521484375,
+          1.32177734375,
+          1.84326171875
+        ],
+        "load_after": [
+          1.50341796875,
+          1.31103515625,
+          1.83349609375
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.758s stime=0.091s rtime=9.811s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 9.530645972001366,
+        "load_before": [
+          1.50341796875,
+          1.31103515625,
+          1.83349609375
+        ],
+        "load_after": [
+          1.42578125,
+          1.30029296875,
+          1.82373046875
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.388s stime=0.088s rtime=9.431s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 5.214195860025939,
+        "load_before": [
+          1.42578125,
+          1.30029296875,
+          1.82373046875
+        ],
+        "load_after": [
+          1.3916015625,
+          1.294921875,
+          1.81884765625
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=9.893s stime=0.093s rtime=5.113s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 3.0243013610015623,
+        "load_before": [
+          1.3916015625,
+          1.294921875,
+          1.81884765625
+        ],
+        "load_after": [
+          1.6005859375,
+          1.33984375,
+          1.83056640625
+        ],
+        "returncode": 0,
+        "sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+        "bytes": 24883200,
+        "bench": [
+          "bench: utime=10.518s stime=0.098s rtime=2.912s",
+          "bench: maxrss=218664KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 36.6998500279733,
+        "load_before": [
+          1.6005859375,
+          1.33984375,
+          1.83056640625
+        ],
+        "load_after": [
+          1.33349609375,
+          1.30078125,
+          1.79833984375
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.383s stime=0.267s rtime=36.474s",
+          "bench: maxrss=361908KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 19.19189965998521,
+        "load_before": [
+          1.33349609375,
+          1.30078125,
+          1.79833984375
+        ],
+        "load_after": [
+          1.5234375,
+          1.3466796875,
+          1.80419921875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.904s stime=0.263s rtime=18.925s",
+          "bench: maxrss=539120KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 9.850131009996403,
+        "load_before": [
+          1.5234375,
+          1.3466796875,
+          1.80419921875
+        ],
+        "load_after": [
+          1.90478515625,
+          1.4345703125,
+          1.82861328125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.215s stime=0.277s rtime=9.606s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 9.983254194026813,
+        "load_before": [
+          1.90478515625,
+          1.4345703125,
+          1.82861328125
+        ],
+        "load_after": [
+          2.1474609375,
+          1.5029296875,
+          1.8466796875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.266s stime=0.290s rtime=9.766s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 18.88081396499183,
+        "load_before": [
+          2.1474609375,
+          1.5029296875,
+          1.8466796875
+        ],
+        "load_after": [
+          2.16748046875,
+          1.5517578125,
+          1.85595703125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.528s stime=0.264s rtime=18.641s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 37.63466905604582,
+        "load_before": [
+          2.16748046875,
+          1.5517578125,
+          1.85595703125
+        ],
+        "load_after": [
+          1.64990234375,
+          1.4892578125,
+          1.82177734375
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=37.307s stime=0.286s rtime=37.417s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 37.853529998043086,
+        "load_before": [
+          1.64990234375,
+          1.4892578125,
+          1.82177734375
+        ],
+        "load_after": [
+          1.33154296875,
+          1.42626953125,
+          1.7861328125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=37.580s stime=0.249s rtime=37.636s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 18.212610405986197,
+        "load_before": [
+          1.33154296875,
+          1.42626953125,
+          1.7861328125
+        ],
+        "load_after": [
+          1.52197265625,
+          1.46435546875,
+          1.7919921875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=35.334s stime=0.285s rtime=17.993s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 9.959214752016123,
+        "load_before": [
+          1.52197265625,
+          1.46435546875,
+          1.7919921875
+        ],
+        "load_after": [
+          1.75634765625,
+          1.515625,
+          1.8056640625
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.701s stime=0.265s rtime=9.735s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 36.773514092026744,
+        "load_before": [
+          1.75634765625,
+          1.515625,
+          1.8056640625
+        ],
+        "load_after": [
+          1.42041015625,
+          1.45703125,
+          1.77490234375
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=36.520s stime=0.183s rtime=36.608s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 18.732329958991613,
+        "load_before": [
+          1.42041015625,
+          1.45703125,
+          1.77490234375
+        ],
+        "load_after": [
+          1.5859375,
+          1.4931640625,
+          1.78076171875
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=36.156s stime=0.210s rtime=18.569s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 9.799461501999758,
+        "load_before": [
+          1.5859375,
+          1.4931640625,
+          1.78076171875
+        ],
+        "load_after": [
+          1.95751953125,
+          1.576171875,
+          1.80517578125
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=36.039s stime=0.184s rtime=9.637s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 9.909028878028039,
+        "load_before": [
+          1.95751953125,
+          1.576171875,
+          1.80517578125
+        ],
+        "load_after": [
+          2.27197265625,
+          1.65673828125,
+          1.82958984375
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=36.388s stime=0.213s rtime=9.763s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 18.70404512900859,
+        "load_before": [
+          2.27197265625,
+          1.65673828125,
+          1.82958984375
+        ],
+        "load_after": [
+          2.34716796875,
+          1.70654296875,
+          1.84326171875
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=36.348s stime=0.197s rtime=18.556s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 38.37001766002504,
+        "load_before": [
+          2.34716796875,
+          1.70654296875,
+          1.84326171875
+        ],
+        "load_after": [
+          1.82421875,
+          1.66064453125,
+          1.82080078125
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=38.097s stime=0.231s rtime=38.219s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 39.03294793399982,
+        "load_before": [
+          1.82421875,
+          1.66064453125,
+          1.82080078125
+        ],
+        "load_after": [
+          1.4208984375,
+          1.576171875,
+          1.78515625
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=38.758s stime=0.215s rtime=38.864s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 20.079991493024863,
+        "load_before": [
+          1.4208984375,
+          1.576171875,
+          1.78515625
+        ],
+        "load_after": [
+          1.5859375,
+          1.6044921875,
+          1.791015625
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=38.758s stime=0.199s rtime=19.908s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": false,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 9.699887651018798,
+        "load_before": [
+          1.5859375,
+          1.6044921875,
+          1.791015625
+        ],
+        "load_after": [
+          1.95751953125,
+          1.68408203125,
+          1.8154296875
+        ],
+        "returncode": 0,
+        "sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+        "bytes": 37324800,
+        "bench": [
+          "bench: utime=35.758s stime=0.221s rtime=9.545s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 37.59985731902998,
+        "load_before": [
+          1.95751953125,
+          1.68408203125,
+          1.8154296875
+        ],
+        "load_after": [
+          1.5322265625,
+          1.60693359375,
+          1.78466796875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=37.255s stime=0.248s rtime=37.338s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 19.982010245963465,
+        "load_before": [
+          1.5322265625,
+          1.60693359375,
+          1.78466796875
+        ],
+        "load_after": [
+          1.60302734375,
+          1.6171875,
+          1.78466796875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=38.264s stime=0.310s rtime=19.643s",
+          "bench: maxrss=709264KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 11.47974500496639,
+        "load_before": [
+          1.60302734375,
+          1.6171875,
+          1.78466796875
+        ],
+        "load_after": [
+          1.93115234375,
+          1.6865234375,
+          1.8046875
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=42.061s stime=0.274s rtime=11.160s",
+          "bench: maxrss=789960KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 10.34947487298632,
+        "load_before": [
+          1.93115234375,
+          1.6865234375,
+          1.8046875
+        ],
+        "load_after": [
+          2.25,
+          1.76318359375,
+          1.8291015625
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=37.852s stime=0.213s rtime=10.064s",
+          "bench: maxrss=790016KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 18.922808119968977,
+        "load_before": [
+          2.25,
+          1.76318359375,
+          1.8291015625
+        ],
+        "load_after": [
+          2.25927734375,
+          1.7958984375,
+          1.83837890625
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.325s stime=0.266s rtime=18.645s",
+          "bench: maxrss=790024KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 36.66156588704325,
+        "load_before": [
+          2.25927734375,
+          1.7958984375,
+          1.83837890625
+        ],
+        "load_after": [
+          1.701171875,
+          1.7060546875,
+          1.80517578125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.315s stime=0.256s rtime=36.379s",
+          "bench: maxrss=790028KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 37.3400459420518,
+        "load_before": [
+          1.701171875,
+          1.7060546875,
+          1.80517578125
+        ],
+        "load_after": [
+          1.3583984375,
+          1.615234375,
+          1.77001953125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.972s stime=0.247s rtime=37.059s",
+          "bench: maxrss=790092KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 19.665587739960756,
+        "load_before": [
+          1.3583984375,
+          1.615234375,
+          1.77001953125
+        ],
+        "load_after": [
+          1.5009765625,
+          1.634765625,
+          1.7744140625
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=37.604s stime=0.316s rtime=19.384s",
+          "bench: maxrss=790092KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 10.045544568973128,
+        "load_before": [
+          1.46044921875,
+          1.6240234375,
+          1.77001953125
+        ],
+        "load_after": [
+          1.61083984375,
+          1.65234375,
+          1.77783203125
+        ],
+        "returncode": 0,
+        "sha256": "9f08a086d56cb96d23462bbe5216098ded4876b4b287159a2be9da35decc92ed",
+        "bytes": 199065600,
+        "bench": [
+          "bench: utime=36.708s stime=0.210s rtime=9.736s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 1,
+        "seconds": 37.2592419689754,
+        "load_before": [
+          1.61083984375,
+          1.65234375,
+          1.77783203125
+        ],
+        "load_after": [
+          1.33935546875,
+          1.578125,
+          1.7470703125
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.829s stime=0.345s rtime=37.006s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 2,
+        "seconds": 18.58973187196534,
+        "load_before": [
+          1.33935546875,
+          1.578125,
+          1.7470703125
+        ],
+        "load_after": [
+          1.52783203125,
+          1.6064453125,
+          1.7529296875
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=35.698s stime=0.307s rtime=18.330s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 0,
+        "threads": 4,
+        "seconds": 10.711532926012296,
+        "load_before": [
+          1.52783203125,
+          1.6064453125,
+          1.7529296875
+        ],
+        "load_after": [
+          1.98828125,
+          1.70263671875,
+          1.78271484375
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=38.734s stime=0.295s rtime=10.445s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 4,
+        "seconds": 10.292803503980394,
+        "load_before": [
+          1.98828125,
+          1.70263671875,
+          1.78271484375
+        ],
+        "load_after": [
+          2.2978515625,
+          1.77880859375,
+          1.80712890625
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=37.588s stime=0.291s rtime=10.046s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 2,
+        "seconds": 19.1890280279913,
+        "load_before": [
+          2.2978515625,
+          1.77880859375,
+          1.80712890625
+        ],
+        "load_after": [
+          2.212890625,
+          1.79443359375,
+          1.81298828125
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.461s stime=0.314s rtime=18.923s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 1,
+        "threads": 1,
+        "seconds": 37.03863725397969,
+        "load_before": [
+          2.212890625,
+          1.79443359375,
+          1.81298828125
+        ],
+        "load_after": [
+          1.8232421875,
+          1.73779296875,
+          1.79345703125
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.693s stime=0.230s rtime=36.773s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 1,
+        "seconds": 36.718539944966324,
+        "load_before": [
+          1.8232421875,
+          1.73779296875,
+          1.79345703125
+        ],
+        "load_after": [
+          1.42041015625,
+          1.64306640625,
+          1.75830078125
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.357s stime=0.267s rtime=36.480s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 2,
+        "seconds": 18.76727941102581,
+        "load_before": [
+          1.42041015625,
+          1.64306640625,
+          1.75830078125
+        ],
+        "load_after": [
+          1.6298828125,
+          1.677734375,
+          1.76806640625
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.276s stime=0.303s rtime=18.526s",
+          "bench: maxrss=790172KiB"
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": true,
+        "stage": "full_composite",
+        "repeat": 2,
+        "threads": 4,
+        "seconds": 10.094386256998405,
+        "load_before": [
+          1.6298828125,
+          1.677734375,
+          1.76806640625
+        ],
+        "load_after": [
+          1.99462890625,
+          1.75439453125,
+          1.79248046875
+        ],
+        "returncode": 0,
+        "sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+        "bytes": 99532800,
+        "bench": [
+          "bench: utime=36.694s stime=0.305s rtime=9.850s",
+          "bench: maxrss=790172KiB"
+        ]
+      }
+    ],
+    "summaries": [
+      {
+        "width": 1920,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "median": {
+          "1": 9.791902279946953,
+          "2": 4.734441658947617,
+          "4": 2.7512584810028784
+        },
+        "speedups": {
+          "2": 2.0682274670005167,
+          "4": 3.5590630060966304
+        },
+        "exact": true
+      },
+      {
+        "width": 1920,
+        "high": false,
+        "stage": "full_composite",
+        "median": {
+          "1": 9.644092675996944,
+          "2": 4.91083108598832,
+          "4": 2.7799369579879567
+        },
+        "speedups": {
+          "2": 1.9638412535738927,
+          "4": 3.469176755352423
+        },
+        "exact": true
+      },
+      {
+        "width": 1920,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "median": {
+          "1": 9.25650100898929,
+          "2": 4.679432983044535,
+          "4": 2.704179195978213
+        },
+        "speedups": {
+          "2": 1.978124495538094,
+          "4": 3.4230353605101347
+        },
+        "exact": true
+      },
+      {
+        "width": 1920,
+        "high": true,
+        "stage": "full_composite",
+        "median": {
+          "1": 9.530645972001366,
+          "2": 4.975645467988215,
+          "4": 3.0243013610015623
+        },
+        "speedups": {
+          "2": 1.915459216963635,
+          "4": 3.1513545888314147
+        },
+        "exact": true
+      },
+      {
+        "width": 3840,
+        "high": false,
+        "stage": "raw_rgb16_alpha",
+        "median": {
+          "1": 37.63466905604582,
+          "2": 18.88081396499183,
+          "4": 9.959214752016123
+        },
+        "speedups": {
+          "2": 1.9932757732705146,
+          "4": 3.7788791579604344
+        },
+        "exact": true
+      },
+      {
+        "width": 3840,
+        "high": false,
+        "stage": "full_composite",
+        "median": {
+          "1": 38.37001766002504,
+          "2": 18.732329958991613,
+          "4": 9.799461501999758
+        },
+        "speedups": {
+          "2": 2.048331293759175,
+          "4": 3.915523077691049
+        },
+        "exact": true
+      },
+      {
+        "width": 3840,
+        "high": true,
+        "stage": "raw_rgb16_alpha",
+        "median": {
+          "1": 37.3400459420518,
+          "2": 19.665587739960756,
+          "4": 10.34947487298632
+        },
+        "speedups": {
+          "2": 1.8987505705805219,
+          "4": 3.6079169620011267
+        },
+        "exact": true
+      },
+      {
+        "width": 3840,
+        "high": true,
+        "stage": "full_composite",
+        "median": {
+          "1": 37.03863725397969,
+          "2": 18.76727941102581,
+          "4": 10.292803503980394
+        },
+        "speedups": {
+          "2": 1.973575201966643,
+          "4": 3.598498430447666
+        },
+        "exact": true
+      }
+    ]
+  },
+  "cold_export": {
+    "measurements": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 1,
+        "repeat": 0,
+        "seconds": 11.104121813958045,
+        "child_user_cpu": 11.098619,
+        "child_system_cpu": 0.505647,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.83447265625,
+          1.72509765625,
+          1.78271484375
+        ],
+        "load_after": [
+          1.7060546875,
+          1.70068359375,
+          1.77392578125
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 2,
+        "repeat": 0,
+        "seconds": 7.115046604012605,
+        "child_user_cpu": 11.611576000000001,
+        "child_system_cpu": 0.46792199999999995,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.7060546875,
+          1.70068359375,
+          1.77392578125
+        ],
+        "load_after": [
+          1.7451171875,
+          1.71044921875,
+          1.7763671875
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 4,
+        "repeat": 0,
+        "seconds": 4.636657399008982,
+        "child_user_cpu": 11.401955000000001,
+        "child_system_cpu": 0.499393,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.7451171875,
+          1.71044921875,
+          1.7763671875
+        ],
+        "load_after": [
+          1.68505859375,
+          1.6982421875,
+          1.77197265625
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 4,
+        "repeat": 1,
+        "seconds": 4.6289450119948015,
+        "child_user_cpu": 11.290483,
+        "child_system_cpu": 0.48937099999999994,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.68505859375,
+          1.6982421875,
+          1.77197265625
+        ],
+        "load_after": [
+          1.87060546875,
+          1.73681640625,
+          1.7841796875
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 2,
+        "repeat": 1,
+        "seconds": 6.570733949018177,
+        "child_user_cpu": 10.925569999999999,
+        "child_system_cpu": 0.48189299999999996,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.87060546875,
+          1.73681640625,
+          1.7841796875
+        ],
+        "load_after": [
+          1.88134765625,
+          1.7412109375,
+          1.78564453125
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 1,
+        "repeat": 1,
+        "seconds": 11.17584296601126,
+        "child_user_cpu": 11.176276999999999,
+        "child_system_cpu": 0.5272689999999999,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.88134765625,
+          1.7412109375,
+          1.78564453125
+        ],
+        "load_after": [
+          1.826171875,
+          1.7333984375,
+          1.78271484375
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 1,
+        "repeat": 2,
+        "seconds": 11.424559569975827,
+        "child_user_cpu": 11.450085000000001,
+        "child_system_cpu": 0.47653699999999993,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.826171875,
+          1.7333984375,
+          1.78271484375
+        ],
+        "load_after": [
+          1.57470703125,
+          1.68115234375,
+          1.76416015625
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 2,
+        "repeat": 2,
+        "seconds": 7.096279350982513,
+        "child_user_cpu": 11.613828000000002,
+        "child_system_cpu": 0.534538,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.57470703125,
+          1.68115234375,
+          1.76416015625
+        ],
+        "load_after": [
+          1.60888671875,
+          1.6865234375,
+          1.765625
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 0,
+        "threads": 4,
+        "repeat": 2,
+        "seconds": 4.80245678400388,
+        "child_user_cpu": 11.658827,
+        "child_system_cpu": 0.518606,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.60888671875,
+          1.6865234375,
+          1.765625
+        ],
+        "load_after": [
+          1.640625,
+          1.69189453125,
+          1.76708984375
+        ],
+        "decoded_sha256": "ef54fad72d07296c64416148baee70fb82952533309cb80a4e89832e58dd56b6",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 9331200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "9803e34474854f8f19db5d4977f54e62ac28a0b142321f908d8a383f18ed99b3",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 1,
+        "repeat": 0,
+        "seconds": 11.559832756000105,
+        "child_user_cpu": 11.747678,
+        "child_system_cpu": 0.5073289999999999,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.640625,
+          1.69189453125,
+          1.76708984375
+        ],
+        "load_after": [
+          1.498046875,
+          1.6572265625,
+          1.75390625
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 2,
+        "repeat": 0,
+        "seconds": 7.054119983979035,
+        "child_user_cpu": 11.579281,
+        "child_system_cpu": 0.5009009999999999,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.498046875,
+          1.6572265625,
+          1.75390625
+        ],
+        "load_after": [
+          1.77880859375,
+          1.712890625,
+          1.771484375
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 4,
+        "repeat": 0,
+        "seconds": 4.827126052987296,
+        "child_user_cpu": 11.665721,
+        "child_system_cpu": 0.534218,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.77880859375,
+          1.712890625,
+          1.771484375
+        ],
+        "load_after": [
+          1.71630859375,
+          1.70068359375,
+          1.76708984375
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 4,
+        "repeat": 1,
+        "seconds": 4.876596871996298,
+        "child_user_cpu": 12.108319999999999,
+        "child_system_cpu": 0.535106,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.71630859375,
+          1.70068359375,
+          1.76708984375
+        ],
+        "load_after": [
+          1.7392578125,
+          1.7060546875,
+          1.7685546875
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 2,
+        "repeat": 1,
+        "seconds": 7.131487799983006,
+        "child_user_cpu": 11.774873999999999,
+        "child_system_cpu": 0.487234,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.7392578125,
+          1.7060546875,
+          1.7685546875
+        ],
+        "load_after": [
+          1.6318359375,
+          1.6826171875,
+          1.76025390625
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 1,
+        "repeat": 1,
+        "seconds": 11.580268647987396,
+        "child_user_cpu": 11.77472,
+        "child_system_cpu": 0.500728,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.6318359375,
+          1.6826171875,
+          1.76025390625
+        ],
+        "load_after": [
+          1.5341796875,
+          1.65966796875,
+          1.75146484375
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 1,
+        "repeat": 2,
+        "seconds": 11.66462950996356,
+        "child_user_cpu": 11.751878,
+        "child_system_cpu": 0.534419,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.5341796875,
+          1.65966796875,
+          1.75146484375
+        ],
+        "load_after": [
+          1.4833984375,
+          1.64306640625,
+          1.744140625
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 2,
+        "repeat": 2,
+        "seconds": 7.370053236023523,
+        "child_user_cpu": 12.033638999999999,
+        "child_system_cpu": 0.539852,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.4833984375,
+          1.64306640625,
+          1.744140625
+        ],
+        "load_after": [
+          1.52490234375,
+          1.6494140625,
+          1.74560546875
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "high": 1,
+        "threads": 4,
+        "repeat": 2,
+        "seconds": 4.756934283999726,
+        "child_user_cpu": 11.5983,
+        "child_system_cpu": 0.516995,
+        "peak_child_rss_kib": 406520,
+        "load_before": [
+          1.52490234375,
+          1.6494140625,
+          1.74560546875
+        ],
+        "load_after": [
+          1.482421875,
+          1.63818359375,
+          1.7412109375
+        ],
+        "decoded_sha256": "54ecba0325c71467b98909f7ba7e7f30e2f332345bac0268d4b1e0e3e9d17990",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 24883200,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "6595b8e6dd03de29e83cfb112664768349805b5d85d4ab1d952c960dcd90e6e4",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 1,
+        "repeat": 0,
+        "seconds": 43.35798331099795,
+        "child_user_cpu": 43.718971,
+        "child_system_cpu": 2.077667,
+        "peak_child_rss_kib": 1497608,
+        "load_before": [
+          1.482421875,
+          1.63818359375,
+          1.7412109375
+        ],
+        "load_after": [
+          1.2265625,
+          1.54736328125,
+          1.7041015625
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 2,
+        "repeat": 0,
+        "seconds": 24.091724395984784,
+        "child_user_cpu": 42.833228,
+        "child_system_cpu": 1.274044,
+        "peak_child_rss_kib": 1456024,
+        "load_before": [
+          1.2265625,
+          1.54736328125,
+          1.7041015625
+        ],
+        "load_after": [
+          1.42822265625,
+          1.56884765625,
+          1.7080078125
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 4,
+        "repeat": 0,
+        "seconds": 14.528823482978623,
+        "child_user_cpu": 41.597799,
+        "child_system_cpu": 1.202007,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.42822265625,
+          1.56884765625,
+          1.7080078125
+        ],
+        "load_after": [
+          1.998046875,
+          1.6884765625,
+          1.74560546875
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 4,
+        "repeat": 1,
+        "seconds": 14.61212061799597,
+        "child_user_cpu": 41.570211,
+        "child_system_cpu": 1.184684,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.998046875,
+          1.6884765625,
+          1.74560546875
+        ],
+        "load_after": [
+          2.08544921875,
+          1.720703125,
+          1.7548828125
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 2,
+        "repeat": 1,
+        "seconds": 23.788464700977784,
+        "child_user_cpu": 42.253708,
+        "child_system_cpu": 1.210241,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          2.08544921875,
+          1.720703125,
+          1.7548828125
+        ],
+        "load_after": [
+          2.0,
+          1.72802734375,
+          1.75634765625
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 1,
+        "repeat": 1,
+        "seconds": 40.70929824496852,
+        "child_user_cpu": 41.635678999999996,
+        "child_system_cpu": 1.0748440000000001,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          2.0,
+          1.72802734375,
+          1.75634765625
+        ],
+        "load_after": [
+          1.556640625,
+          1.650390625,
+          1.72705078125
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 1,
+        "repeat": 2,
+        "seconds": 40.745624772971496,
+        "child_user_cpu": 41.698396,
+        "child_system_cpu": 1.25858,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.556640625,
+          1.650390625,
+          1.72705078125
+        ],
+        "load_after": [
+          1.26123046875,
+          1.55712890625,
+          1.69189453125
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 2,
+        "repeat": 2,
+        "seconds": 25.720320700027514,
+        "child_user_cpu": 45.103437,
+        "child_system_cpu": 1.9633530000000001,
+        "peak_child_rss_kib": 1500296,
+        "load_before": [
+          1.26123046875,
+          1.55712890625,
+          1.69189453125
+        ],
+        "load_after": [
+          1.45654296875,
+          1.578125,
+          1.69580078125
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 0,
+        "threads": 4,
+        "repeat": 2,
+        "seconds": 14.440455323026981,
+        "child_user_cpu": 41.290765,
+        "child_system_cpu": 1.266173,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.45654296875,
+          1.578125,
+          1.69580078125
+        ],
+        "load_after": [
+          1.8173828125,
+          1.64892578125,
+          1.71728515625
+        ],
+        "decoded_sha256": "44543a2aab22f5f014375ee4053479cc41f7774cf3f9cd85431fc2a7b9ee35cf",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 37324800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "00aab4060c26209de978397f4014481fa78050635a68bc77cbf71c48ddd64926",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 1,
+        "repeat": 0,
+        "seconds": 41.413101084996015,
+        "child_user_cpu": 42.773872,
+        "child_system_cpu": 1.292288,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.8173828125,
+          1.64892578125,
+          1.71728515625
+        ],
+        "load_after": [
+          1.46240234375,
+          1.58056640625,
+          1.69189453125
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 2,
+        "repeat": 0,
+        "seconds": 24.37801986996783,
+        "child_user_cpu": 43.994852,
+        "child_system_cpu": 1.294908,
+        "peak_child_rss_kib": 1500040,
+        "load_before": [
+          1.505859375,
+          1.587890625,
+          1.69384765625
+        ],
+        "load_after": [
+          1.7099609375,
+          1.63623046875,
+          1.70849609375
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 4,
+        "repeat": 0,
+        "seconds": 15.259828504989855,
+        "child_user_cpu": 43.655108,
+        "child_system_cpu": 1.3856330000000001,
+        "peak_child_rss_kib": 1500296,
+        "load_before": [
+          1.7099609375,
+          1.63623046875,
+          1.70849609375
+        ],
+        "load_after": [
+          1.98974609375,
+          1.70361328125,
+          1.72998046875
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 4,
+        "repeat": 1,
+        "seconds": 15.887269404018298,
+        "child_user_cpu": 45.487497999999995,
+        "child_system_cpu": 1.299299,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.98974609375,
+          1.70361328125,
+          1.72998046875
+        ],
+        "load_after": [
+          2.3056640625,
+          1.78466796875,
+          1.755859375
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 2,
+        "repeat": 1,
+        "seconds": 23.802064439980313,
+        "child_user_cpu": 42.765482,
+        "child_system_cpu": 1.29958,
+        "peak_child_rss_kib": 1500232,
+        "load_before": [
+          2.3056640625,
+          1.78466796875,
+          1.755859375
+        ],
+        "load_after": [
+          2.21728515625,
+          1.80322265625,
+          1.7626953125
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 1,
+        "repeat": 1,
+        "seconds": 41.792394899996,
+        "child_user_cpu": 43.182533,
+        "child_system_cpu": 1.28077,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          2.21728515625,
+          1.80322265625,
+          1.7626953125
+        ],
+        "load_after": [
+          1.623046875,
+          1.70068359375,
+          1.7275390625
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 1,
+        "repeat": 2,
+        "seconds": 42.09403558896156,
+        "child_user_cpu": 43.507033,
+        "child_system_cpu": 1.28191,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.623046875,
+          1.70068359375,
+          1.7275390625
+        ],
+        "load_after": [
+          1.2919921875,
+          1.6005859375,
+          1.69189453125
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 1,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 2,
+        "repeat": 2,
+        "seconds": 24.256134792987723,
+        "child_user_cpu": 43.340154,
+        "child_system_cpu": 1.3679569999999999,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.2919921875,
+          1.6005859375,
+          1.69189453125
+        ],
+        "load_after": [
+          1.40283203125,
+          1.6005859375,
+          1.68994140625
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 2,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      },
+      {
+        "width": 3840,
+        "height": 2160,
+        "high": 1,
+        "threads": 4,
+        "repeat": 2,
+        "seconds": 15.516042808012571,
+        "child_user_cpu": 43.891403000000004,
+        "child_system_cpu": 1.336665,
+        "peak_child_rss_kib": 1500168,
+        "load_before": [
+          1.40283203125,
+          1.6005859375,
+          1.68994140625
+        ],
+        "load_after": [
+          1.62744140625,
+          1.63720703125,
+          1.70068359375
+        ],
+        "decoded_sha256": "ae95c94cc4c7591808bd34056964d16bc7e66348d4436488efc53713e3badf87",
+        "audio_pcm_sha256": "5080c4c5b5edc97af169142d75dda23ced6e1ba6f95a7bab896d8476b94ffe5f",
+        "video_bytes": 99532800,
+        "audio_bytes": 1155072,
+        "encoded_sha256": "0bca30eddd81272f2f293ebd491add362847ef9e7210697b455fc20e2c1da72f",
+        "commands": [
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": true,
+            "cpuflags": null
+          },
+          {
+            "threads": 4,
+            "probe": false,
+            "cpuflags": null
+          }
+        ]
+      }
+    ],
+    "summaries": [
+      {
+        "width": 1920,
+        "high": false,
+        "median_seconds": {
+          "1": 11.17584296601126,
+          "2": 7.096279350982513,
+          "4": 4.636657399008982
+        },
+        "speedup_1_to_4": 2.4103232143914566,
+        "all_video_pcm_encoded_exact": true,
+        "peak_child_rss_kib_range": [
+          406520,
+          406520
+        ]
+      },
+      {
+        "width": 1920,
+        "high": true,
+        "median_seconds": {
+          "1": 11.580268647987396,
+          "2": 7.131487799983006,
+          "4": 4.827126052987296
+        },
+        "speedup_1_to_4": 2.398998601004189,
+        "all_video_pcm_encoded_exact": true,
+        "peak_child_rss_kib_range": [
+          406520,
+          406520
+        ]
+      },
+      {
+        "width": 3840,
+        "high": false,
+        "median_seconds": {
+          "1": 40.745624772971496,
+          "2": 24.091724395984784,
+          "4": 14.528823482978623
+        },
+        "speedup_1_to_4": 2.804468291648488,
+        "all_video_pcm_encoded_exact": true,
+        "peak_child_rss_kib_range": [
+          1456024,
+          1500296
+        ]
+      },
+      {
+        "width": 3840,
+        "high": true,
+        "median_seconds": {
+          "1": 41.792394899996,
+          "2": 24.256134792987723,
+          "4": 15.516042808012571
+        },
+        "speedup_1_to_4": 2.6934957203401226,
+        "all_video_pcm_encoded_exact": true,
+        "peak_child_rss_kib_range": [
+          1500040,
+          1500296
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Synthetic three-frame measurements, not playback FPS",
+    "Raw FFmpeg maxrss may include inherited pre-exec buffers; not exclusively compositor allocations",
+    "Cold-export peak child RSS spans whole pipeline",
+    "No native Windows/macOS or remote publication proof"
+  ]
+}

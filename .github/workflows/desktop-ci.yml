@@ -1,0 +1,151 @@
+name: Desktop draft validation
+# Before allowing a hosted run, verify included quota and spending settings.
+# Source-only integration commits use [skip ci]; manual dispatch ignores that
+# marker. Triggers are deliberately unchanged. See docs/CI_EXECUTION.md.
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Native platform (verify remaining quota and hard spending stop first)
+        type: choice
+        required: true
+        default: windows-2022
+        options:
+          - windows-2022
+          - macos-15
+  push:
+  pull_request:
+permissions:
+  contents: read
+# Serialize across refs/events; never cancel an already paid-for running build.
+# A pending run can be replaced by a newer one; this is not historical deduplication.
+concurrency:
+  group: desktop-draft-validation
+  cancel-in-progress: false
+jobs:
+  desktop:
+    # Manual retries require a fresh dispatch after diagnosis and quota review.
+    # Automatic PR/push checks retain their existing rerun capability.
+    if: ${{ github.event_name != 'workflow_dispatch' || (github.run_attempt == 1 && contains(fromJSON('["windows-2022","macos-15"]'), inputs.platform)) }}
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        os: ${{ fromJSON(github.event_name == 'workflow_dispatch' && format('["{0}"]', inputs.platform) || '["windows-2022","macos-15"]') }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: ${{ matrix.os == 'windows-2022' && 200 || 100 }}
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Python dependencies
+        timeout-minutes: 10
+        run: python -m pip install -e ".[test,build]"
+      - name: Build and verify caption shaping runtime
+        timeout-minutes: 7
+        run: python scripts/provision_caption_runtime.py --build --report build/caption-runtime.json
+      - name: Provision pinned external FFmpeg and verify capabilities
+        timeout-minutes: 10
+        run: python scripts/provision_ffmpeg.py --install --report build/ffmpeg-provenance.json
+      - name: Provision pinned reference-only FFmpeg (Windows)
+        if: runner.os == 'Windows'
+        timeout-minutes: 5
+        run: python scripts/provision_frozen_reference.py --report build/reference-ffmpeg-provenance.json
+      - name: Provision licensed Chinese test font (CI cache only)
+        timeout-minutes: 5
+        run: python scripts/provision_test_font.py --download --report build/test-font-provenance.json
+      - name: Check responsive inspector in one bounded process
+        timeout-minutes: 12
+        run: python scripts/run_bounded_tests.py tests/test_stabilization_ui.py tests/test_restoration_ui.py tests/test_ui_style.py --output build/inspector-preflight --workers 1 --target-nodes 10000 --shard-timeout 600 --suite-timeout 660
+      - name: Retrieve verified v25 source for same-runtime exact color tests
+        timeout-minutes: 5
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/fetch_contrast_v25_archive.py --output build/private-v25.zip
+      - name: Run exact full regression in bounded local shards
+        # Windows scheduling estimates do not change coverage or grant retries.
+        # Only the measured slow singleton may exceed the normal 900-second cap.
+        timeout-minutes: ${{ runner.os == 'Windows' && 152 || 62 }}
+        run: python scripts/run_bounded_tests.py --output build/test-shards --workers 2 --target-nodes 200 --collection-timeout 180 --shard-timeout 900 --suite-timeout ${{ runner.os == 'Windows' && 9000 || 3600 }} ${{ runner.os == 'Windows' && '--cost-profile scripts/windows_full_costs.json --target-seconds 450 --isolated-module-timeout tests/test_final_frame_preview_oracle.py=2100' || '' }}
+      - name: Check UI alignment and capture native Qt screenshots
+        if: ${{ success() }}
+        timeout-minutes: 10
+        run: python scripts/capture_ui_alignment.py --output build/ui-alignment --scales 1,1.5,2
+      - name: Build unsigned native draft
+        timeout-minutes: 15
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/build_app.py 2>&1 | tee build/native-build.log
+      - name: Archive and re-extract native package
+        timeout-minutes: 5
+        run: python scripts/archive_native.py --extract-to build/archived-package
+      - name: Run packaged runtime smoke (Windows)
+        if: runner.os == 'Windows'
+        timeout-minutes: 12
+        run: python scripts/run_native_smoke.py --executable build/archived-package/LumenEdit-Draft/LumenEdit-Draft.exe --archive dist/LumenEdit-Draft-Windows.zip --timeout 600
+      - name: Run packaged runtime smoke (macOS)
+        if: runner.os == 'macOS'
+        timeout-minutes: 12
+        run: python scripts/run_native_smoke.py --executable build/archived-package/LumenEdit-Draft.app/Contents/MacOS/LumenEdit-Draft --archive dist/LumenEdit-Draft-macOS.tar.gz --timeout 600
+      - name: Capture dependency manifest
+        shell: bash
+        run: python -m pip freeze > dist/python-dependencies.txt
+      - name: Bind native package hashes to exact source and validation
+        run: python scripts/write_native_manifest.py
+      - uses: actions/upload-artifact@v4
+        timeout-minutes: 5
+        with:
+          name: lumen-edit-unsigned-draft-${{ matrix.os }}
+          path: |
+            dist/LumenEdit-Draft-macOS.tar.gz
+            dist/LumenEdit-Draft-Windows.zip
+            dist/python-dependencies.txt
+            dist/native-manifest.json
+          retention-days: 7
+          if-no-files-found: error
+      - name: Retain diagnostics even on failure
+        if: always()
+        timeout-minutes: 5
+        uses: actions/upload-artifact@v4
+        with:
+          name: lumen-edit-diagnostics-${{ matrix.os }}
+          path: |
+            build/test-shards/**/*.json
+            build/test-shards/**/*.jsonl
+            build/test-shards/**/*.xml
+            build/test-shards/**/*.log
+            build/test-shards/**/nodes.txt
+            build/test-shards/**/ui/**/*.png
+            build/inspector-preflight/**/*.json
+            build/inspector-preflight/**/*.jsonl
+            build/inspector-preflight/**/*.xml
+            build/inspector-preflight/**/*.log
+            build/inspector-preflight/**/nodes.txt
+            build/ui-test-failures/
+            build/native-smoke/
+            build/native-smoke-launch/
+            build/native-build.log
+            build/pyinstaller/**/warn-*.txt
+            build/pyinstaller/**/xref-*.html
+            build/pyinstaller/**/*.toc
+            build/launcher/*.spec
+            build/caption-runtime.json
+            build/ffmpeg-provenance.json
+            build/reference-ffmpeg-provenance.json
+            build/test-font-provenance.json
+            build/ui-alignment/**/*.png
+            build/ui-alignment/**/report.json
+            build/ui-alignment/report.json
+            dist/python-dependencies.txt
+            dist/native-manifest.json
+            !build/test-shards/**/tmp/**
+            !build/test-shards/**/cache/**
+            !build/inspector-preflight/**/tmp/**
+            !build/inspector-preflight/**/cache/**
+          retention-days: 7
+          if-no-files-found: warn

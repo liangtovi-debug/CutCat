@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "kenney-interface-sounds",
+      "author": "Kenney",
+      "source_name": "Kenney Interface Sounds 1.0",
+      "page_url": "https://kenney.nl/assets/interface-sounds",
+      "retrieved_at_utc": "2026-10-21T11:39:52.402482+00:00",
+      "retrieved_page_sha256": "0394b2812d8701a9ca083e16eddf8daa445b7bb33c71be23123e7bf3c590e96f",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License Creative Commons CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    },
+    {
+      "id": "kenney-impact-sounds",
+      "author": "Kenney",
+      "source_name": "Kenney Impact Sounds 1.0",
+      "page_url": "https://kenney.nl/assets/impact-sounds",
+      "retrieved_at_utc": "2026-10-21T11:39:52.309380+00:00",
+      "retrieved_page_sha256": "e8b9848458ba0857fb1a411a6b665ad9e505e6af67c195e90870072d026ddd0a",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License Creative Commons CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    },
+    {
+      "id": "kenney-rpg-audio",
+      "author": "Kenney Vleugels (Kenney)",
+      "source_name": "Kenney RPG Audio",
+      "page_url": "https://kenney.nl/assets/rpg-audio",
+      "retrieved_at_utc": "2026-10-21T11:39:51.824126+00:00",
+      "retrieved_page_sha256": "6ebdcc990fa41c3ced02f23516435302aa1880b942e5c8a15750357b8b75c532",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License Creative Commons CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    },
+    {
+      "id": "oga-bamboo-swish",
+      "author": "Iwan Gabovitch (qubodup)",
+      "source_name": "Swish - bamboo stick weapon swhoshes",
+      "page_url": "https://opengameart.org/content/swish-bamboo-stick-weapon-swhoshes",
+      "retrieved_at_utc": "2026-10-21T11:40:55.376118+00:00",
+      "retrieved_page_sha256": "17f51d160350f3c0713720f43a1115b9dc82526430892010022a433d839fd466",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License(s): CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    },
+    {
+      "id": "muted-birds-of-hawaii",
+      "author": "Sébastien (muted.io)",
+      "source_name": "muted.io Birds of Hawaii",
+      "page_url": "https://muted.io/birds-of-hawaii/",
+      "retrieved_at_utc": "2026-10-21T11:39:53.099751+00:00",
+      "retrieved_page_sha256": "7df1caf6647a5011ca57d1b0381c69d83af6f25d677854529edeae5075acaf8f",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License: CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    },
+    {
+      "id": "oga-rain",
+      "author": "Ove Melaa (OveMelaa)",
+      "source_name": "Rain (Ambient, Not Loopable)",
+      "page_url": "https://opengameart.org/content/rain-ambient-not-loopable-2-versions-available",
+      "retrieved_at_utc": "2026-10-21T11:40:46.073377+00:00",
+      "retrieved_page_sha256": "70653a0fd2576f9d71be26e263791d20534a5193aa461a6fbfc8ae5d21e11050",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_declaration_excerpt": "License(s): CC0",
+      "excerpt_note": "Short exact license-label excerpt from the asset page. Full website HTML is not distributed."
+    }
+  ]
+}

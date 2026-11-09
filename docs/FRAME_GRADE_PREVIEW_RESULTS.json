@@ -1,0 +1,196 @@
+{
+  "summary": {
+    "1920": {
+      "timeline_frames": 30,
+      "whole": {
+        "samples_seconds": [
+          21.419397605000995,
+          23.51934410800459,
+          20.85759212798439
+        ],
+        "median_seconds": 21.419397605000995,
+        "python_peak_rss_mib_median": 269.05859375,
+        "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+      },
+      "frame": {
+        "samples_seconds": [
+          3.872474803996738,
+          4.122878549998859,
+          4.118102762004128
+        ],
+        "median_seconds": 4.118102762004128,
+        "python_peak_rss_mib_median": 234.96484375,
+        "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+      },
+      "wait_reduction_fraction": 0.8077395621507752
+    },
+    "3840": {
+      "timeline_frames": 8,
+      "whole": {
+        "samples_seconds": [
+          29.310073640022893,
+          28.843407520995243,
+          29.937803552980768
+        ],
+        "median_seconds": 29.310073640022893,
+        "python_peak_rss_mib_median": 915.47265625,
+        "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+      },
+      "frame": {
+        "samples_seconds": [
+          7.922565484012011,
+          8.64277854602551,
+          9.144720904994756
+        ],
+        "median_seconds": 8.64277854602551,
+        "python_peak_rss_mib_median": 857.8984375,
+        "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+      },
+      "wait_reduction_fraction": 0.7051260037018876
+    }
+  },
+  "environment": {
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.2.4",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "rounds": 3,
+    "order": "alternating frame/whole first by round",
+    "warning": "Different deliverables; no Resolve timing, realtime claim or export speedup inference. OS file cache is uncontrolled; each process/render cache is fresh."
+  },
+  "raw": [
+    {
+      "kind": "frame",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 0,
+      "total_seconds": 3.872474803996738,
+      "python_peak_rss_mib": 236.34375,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "whole",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 0,
+      "total_seconds": 21.419397605000995,
+      "python_peak_rss_mib": 269.22265625,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    },
+    {
+      "kind": "whole",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 1,
+      "total_seconds": 23.51934410800459,
+      "python_peak_rss_mib": 268.46875,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    },
+    {
+      "kind": "frame",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 1,
+      "total_seconds": 4.122878549998859,
+      "python_peak_rss_mib": 234.796875,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "frame",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 2,
+      "total_seconds": 4.118102762004128,
+      "python_peak_rss_mib": 234.96484375,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "whole",
+      "width": 1920,
+      "height": 1080,
+      "timeline_frames": 30,
+      "requested_frame": 15,
+      "repeat": 2,
+      "total_seconds": 20.85759212798439,
+      "python_peak_rss_mib": 269.05859375,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    },
+    {
+      "kind": "frame",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 0,
+      "total_seconds": 7.922565484012011,
+      "python_peak_rss_mib": 857.51171875,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "whole",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 0,
+      "total_seconds": 29.310073640022893,
+      "python_peak_rss_mib": 915.41015625,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    },
+    {
+      "kind": "whole",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 1,
+      "total_seconds": 28.843407520995243,
+      "python_peak_rss_mib": 915.578125,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    },
+    {
+      "kind": "frame",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 1,
+      "total_seconds": 8.64277854602551,
+      "python_peak_rss_mib": 857.96875,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "frame",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 2,
+      "total_seconds": 9.144720904994756,
+      "python_peak_rss_mib": 857.8984375,
+      "boundary": "full-resolution float32 selected clip, before effects/composite; display conversion not timed"
+    },
+    {
+      "kind": "whole",
+      "width": 3840,
+      "height": 2160,
+      "timeline_frames": 8,
+      "requested_frame": 4,
+      "repeat": 2,
+      "total_seconds": 29.937803552980768,
+      "python_peak_rss_mib": 915.47265625,
+      "boundary": "complete playable 8-bit timeline proxy, decode+grade+composite+encode"
+    }
+  ],
+  "warning": "Single-frame grade review and full playable timeline are different deliverables. No equivalent-output, realtime GPU or export-speedup claim."
+}

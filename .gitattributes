@@ -1,0 +1,8 @@
+# Keep source and hash-verified asset manifests byte-identical on Windows.
+* text=auto eol=lf
+*.png binary
+# Preserve upstream license notices and identity-checked media byte-for-byte.
+lumen/assets/** -text
+*.npz -text
+# Preserve the independently hash-pinned upstream runtime manifest verbatim.
+tests/frozen_range_runtime/winget-7.1.1-installer.yaml -text

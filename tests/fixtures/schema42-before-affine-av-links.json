@@ -1,0 +1,432 @@
+{
+  "av_links": [
+    {
+      "alignment": "same-source-zero-offset-v1",
+      "audio_clip_id": "a",
+      "id": "l",
+      "media_id": "m",
+      "video_clip_id": "v"
+    }
+  ],
+  "caption_style": {
+    "color": "#FFFFFF",
+    "font_directory": "",
+    "font_family": "DejaVu Sans",
+    "font_size": 42,
+    "margin_bottom": 40,
+    "max_lines": 6,
+    "outline_color": "#000000",
+    "outline_width": 2,
+    "safe_margin_percent": 5
+  },
+  "captions": [],
+  "clip_groups": [],
+  "clips": [
+    {
+      "audio_gain_keyframes": [],
+      "audio_mix_anchor": null,
+      "composite": {
+        "opacity": 1.0,
+        "transparent_outside_transform": false
+      },
+      "duration": 12,
+      "effects": [],
+      "fade_in": 0,
+      "fade_out": 0,
+      "gain_db": 0.0,
+      "grade": {
+        "blue_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "contrast": 1.0,
+        "contrast_pivot": 0.5,
+        "enabled": true,
+        "exposure": 0.0,
+        "gain": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "gamma": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "green_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "highlights": 0.0,
+        "hue_hue_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "hue_sat_curve": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "input_encoding": "rec709",
+        "lift": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linear_exposure": 0.0,
+        "lut_path": "",
+        "lut_strength": 1.0,
+        "master_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "qualifier": {
+          "enabled": false,
+          "exclusion_ranges": [],
+          "exposure": 0.0,
+          "hue_center": 0.0,
+          "hue_enabled": true,
+          "hue_shift": 0.0,
+          "hue_softness": 0.05,
+          "hue_width": 0.1,
+          "inclusion_ranges": [],
+          "luma_enabled": true,
+          "luma_high": 1.0,
+          "luma_low": 0.0,
+          "luma_softness": 0.05,
+          "luma_softness_high": null,
+          "luma_softness_low": null,
+          "matte_black": 0.0,
+          "matte_morphology": 0.0,
+          "matte_smoothing": 0.0,
+          "matte_white": 1.0,
+          "saturation": 1.0,
+          "saturation_enabled": true,
+          "saturation_high": 1.0,
+          "saturation_low": 0.0,
+          "saturation_softness": 0.05,
+          "saturation_softness_high": null,
+          "saturation_softness_low": null,
+          "window_center_x": 0.5,
+          "window_center_y": 0.5,
+          "window_feather": 0.1,
+          "window_height": 0.5,
+          "window_invert": false,
+          "window_keyframes": [],
+          "window_shape": "off",
+          "window_width": 0.5
+        },
+        "red_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "saturation": 1.0,
+        "shadows": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "white_balance_enabled": false,
+        "white_balance_gains": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "id": "v",
+      "media_id": "m",
+      "motion_keyframes": [],
+      "muted": false,
+      "restoration": {
+        "deblock": 0.0,
+        "denoise": 0.0,
+        "enabled": false,
+        "sharpen": 0.0
+      },
+      "source_audio_enabled": false,
+      "stabilization": {
+        "border": "crop",
+        "enabled": false,
+        "max_zoom": 1.15,
+        "smoothing": 15,
+        "strength": 1.0
+      },
+      "start": 5,
+      "time_map": {
+        "source_in_den": 1,
+        "source_in_num": 10,
+        "source_out_den": 1,
+        "source_out_num": 22,
+        "speed_den": 1,
+        "speed_num": 1
+      },
+      "track": 0,
+      "transform": {
+        "mirror_x": false,
+        "mirror_y": false,
+        "rotation": 0.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    {
+      "audio_gain_keyframes": [],
+      "audio_mix_anchor": null,
+      "composite": {
+        "opacity": 1.0,
+        "transparent_outside_transform": false
+      },
+      "duration": 12,
+      "effects": [],
+      "fade_in": 0,
+      "fade_out": 0,
+      "gain_db": 0.0,
+      "grade": {
+        "blue_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "contrast": 1.0,
+        "contrast_pivot": 0.5,
+        "enabled": true,
+        "exposure": 0.0,
+        "gain": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "gamma": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "green_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "highlights": 0.0,
+        "hue_hue_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "hue_sat_curve": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "input_encoding": "rec709",
+        "lift": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linear_exposure": 0.0,
+        "lut_path": "",
+        "lut_strength": 1.0,
+        "master_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "qualifier": {
+          "enabled": false,
+          "exclusion_ranges": [],
+          "exposure": 0.0,
+          "hue_center": 0.0,
+          "hue_enabled": true,
+          "hue_shift": 0.0,
+          "hue_softness": 0.05,
+          "hue_width": 0.1,
+          "inclusion_ranges": [],
+          "luma_enabled": true,
+          "luma_high": 1.0,
+          "luma_low": 0.0,
+          "luma_softness": 0.05,
+          "luma_softness_high": null,
+          "luma_softness_low": null,
+          "matte_black": 0.0,
+          "matte_morphology": 0.0,
+          "matte_smoothing": 0.0,
+          "matte_white": 1.0,
+          "saturation": 1.0,
+          "saturation_enabled": true,
+          "saturation_high": 1.0,
+          "saturation_low": 0.0,
+          "saturation_softness": 0.05,
+          "saturation_softness_high": null,
+          "saturation_softness_low": null,
+          "window_center_x": 0.5,
+          "window_center_y": 0.5,
+          "window_feather": 0.1,
+          "window_height": 0.5,
+          "window_invert": false,
+          "window_keyframes": [],
+          "window_shape": "off",
+          "window_width": 0.5
+        },
+        "red_curve": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "saturation": 1.0,
+        "shadows": 0.0,
+        "temperature": 0.0,
+        "tint": 0.0,
+        "white_balance_enabled": false,
+        "white_balance_gains": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "id": "a",
+      "media_id": "m",
+      "motion_keyframes": [],
+      "muted": false,
+      "restoration": {
+        "deblock": 0.0,
+        "denoise": 0.0,
+        "enabled": false,
+        "sharpen": 0.0
+      },
+      "source_audio_enabled": true,
+      "stabilization": {
+        "border": "crop",
+        "enabled": false,
+        "max_zoom": 1.15,
+        "smoothing": 15,
+        "strength": 1.0
+      },
+      "start": 5,
+      "time_map": {
+        "source_in_den": 1,
+        "source_in_num": 10,
+        "source_out_den": 1,
+        "source_out_num": 22,
+        "speed_den": 1,
+        "speed_num": 1
+      },
+      "track": 2,
+      "transform": {
+        "mirror_x": false,
+        "mirror_y": false,
+        "rotation": 0.0,
+        "scale": 1.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    }
+  ],
+  "format": "lumen-project",
+  "fps_den": 1,
+  "fps_num": 30,
+  "height": 720,
+  "master_gain_db": 0.0,
+  "media": [
+    {
+      "audio_offset": 0.0,
+      "color_primaries": "unknown",
+      "color_range": "unknown",
+      "color_space": "unknown",
+      "color_transfer": "unknown",
+      "decoded_video_end_den": null,
+      "decoded_video_end_num": null,
+      "duration": 100,
+      "fps_den": 1,
+      "fps_num": 24,
+      "has_audio": true,
+      "has_video": true,
+      "height": 48,
+      "id": "m",
+      "input_encoding": "rec709",
+      "name": "Source",
+      "path": "/fixture-source-not-opened.mov",
+      "sound_provenance": null,
+      "speech_provenance": null,
+      "width": 64
+    }
+  ],
+  "media_bin_ids": {},
+  "media_bins": [],
+  "name": "Untitled",
+  "overlays": [],
+  "source_ranges": [],
+  "timeline_markers": [],
+  "track_edit_locks": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "version": 42,
+  "video_transitions": [],
+  "width": 1280
+}

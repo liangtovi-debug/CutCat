@@ -1,0 +1,103 @@
+{
+  "platform": "Linux/offscreen",
+  "native_validation": false,
+  "dialog_widths": [
+    360,
+    760
+  ],
+  "locales": [
+    "en",
+    "zh-CN"
+  ],
+  "checks": "Real RGB16 source and full float grade snapshot; all labels and controls visible; narrow geometry unchanged; localization preserves current snapshot, project and history",
+  "runs": [
+    {
+      "scale": "1",
+      "returncode": 0,
+      "captures": [
+        {
+          "name": "frame-grade-en-360-dpr1.png",
+          "sha256": "37a50b6cab122be6ee2e0a74ea56d13bd24ea80c5153c9ba4e90259cf4a1bb90"
+        },
+        {
+          "name": "frame-grade-en-760-dpr1.png",
+          "sha256": "2d548f547421b76b3e81e35702eaa696cdf4f4583d9e5cabc3d69804418e95b6"
+        },
+        {
+          "name": "frame-grade-zh-CN-360-dpr1.png",
+          "sha256": "d003f35991e6d1a16806e4539f44bf2c02ca98201a43ef6738fd6316d337fa84"
+        },
+        {
+          "name": "frame-grade-zh-CN-760-dpr1.png",
+          "sha256": "7be0770ce6954a66a483dc7dee581780f9c943d9a6f498f84c6d8fc8ebbfe23c"
+        }
+      ]
+    },
+    {
+      "scale": "1.25",
+      "returncode": 0,
+      "captures": [
+        {
+          "name": "frame-grade-en-360-dpr1.25.png",
+          "sha256": "b5fd1cade3069db86ead119ca77af106525d8b3b9155fd081041cba4391b8f53"
+        },
+        {
+          "name": "frame-grade-en-760-dpr1.25.png",
+          "sha256": "036d3071a8cf26cc50fac2c803517d849bf5b6115f5c2c00b2e106b458cd5265"
+        },
+        {
+          "name": "frame-grade-zh-CN-360-dpr1.25.png",
+          "sha256": "fc7d1331e69fc39629b103a7885ca6d57551cebaf384423ed5fd3bb6c389ba4e"
+        },
+        {
+          "name": "frame-grade-zh-CN-760-dpr1.25.png",
+          "sha256": "e8d19fc56e90b506929002de6be5c23ef9e758929f76e685461178edda41858c"
+        }
+      ]
+    },
+    {
+      "scale": "1.5",
+      "returncode": 0,
+      "captures": [
+        {
+          "name": "frame-grade-en-360-dpr1.5.png",
+          "sha256": "33d3fcdeaae9c11b6d8d214d08bd2bda2f595fb432888b207ea92331138db535"
+        },
+        {
+          "name": "frame-grade-en-760-dpr1.5.png",
+          "sha256": "6417af79f5f3a14f90c03fbbbabf0b2b2b7f28d6956dccee50dfb0b5766ebea0"
+        },
+        {
+          "name": "frame-grade-zh-CN-360-dpr1.5.png",
+          "sha256": "1d956ccd496d39bd53f96cef606ac5a5ceb86ab76eeb538ba162d0e3fb27f3b9"
+        },
+        {
+          "name": "frame-grade-zh-CN-760-dpr1.5.png",
+          "sha256": "a64bf99e09ea2170459f4a318562034ee30e8f38b187df5d8c8ec4b791107785"
+        }
+      ]
+    },
+    {
+      "scale": "2",
+      "returncode": 0,
+      "captures": [
+        {
+          "name": "frame-grade-en-360-dpr2.png",
+          "sha256": "f2ef63605eb739e9f2a9c245f3a68519f24ea80dfe8d34b7bd12c8ccd4d4b4b5"
+        },
+        {
+          "name": "frame-grade-en-760-dpr2.png",
+          "sha256": "68d3869a6f44b2c38d5fa9431039e89bbbc47ffecd86a137d60e8060bb7f2975"
+        },
+        {
+          "name": "frame-grade-zh-CN-360-dpr2.png",
+          "sha256": "60612be523acde1565ac27e7ce54b5e5b7a0881d249cd376bd9f639e2f39e4be"
+        },
+        {
+          "name": "frame-grade-zh-CN-760-dpr2.png",
+          "sha256": "8cfa6ec83093193d14bf5ba0cb5f2c28a053c0cead234d7ff8aa3bd1bdd7ec8c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "version": 1,
+  "sounds": [
+    {
+      "id": "ui_soft_click",
+      "name_en": "Soft click",
+      "name_zh": "轻柔点击",
+      "category": "ui",
+      "tags": [
+        "click",
+        "button",
+        "点击",
+        "按钮"
+      ],
+      "file": "ui_soft_click.wav",
+      "sha256": "116fde696c6beed34f14aac8977d55f6956e3d89d337782fe614cd9790c490bb",
+      "sample_rate": 48000,
+      "sample_count": 4800,
+      "peak_dbfs": -11.056877,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "ui_pop",
+      "name_en": "Bubble pop",
+      "name_zh": "气泡弹出",
+      "category": "ui",
+      "tags": [
+        "pop",
+        "bubble",
+        "气泡",
+        "弹出"
+      ],
+      "file": "ui_pop.wav",
+      "sha256": "9760d14f8270bb94ae93c234b50c82f999f624dfcf4fb87857ba80fecfad6291",
+      "sample_rate": 48000,
+      "sample_count": 9120,
+      "peak_dbfs": -9.118488,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "ui_toggle",
+      "name_en": "Toggle switch",
+      "name_zh": "切换开关",
+      "category": "ui",
+      "tags": [
+        "toggle",
+        "switch",
+        "切换",
+        "开关"
+      ],
+      "file": "ui_toggle.wav",
+      "sha256": "ecb65f7a5a310827c92ce3e1c8dd8976fb34ac96abb829f0866eab95df509500",
+      "sample_rate": 48000,
+      "sample_count": 7680,
+      "peak_dbfs": -10.457928,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "ui_confirm",
+      "name_en": "Confirm tap",
+      "name_zh": "确认轻音",
+      "category": "ui",
+      "tags": [
+        "confirm",
+        "tap",
+        "确认",
+        "轻触"
+      ],
+      "file": "ui_confirm.wav",
+      "sha256": "11016a69812e1121fbf012edeab4d3c2aa9889762a0197447286c5312eba4b38",
+      "sample_rate": 48000,
+      "sample_count": 10560,
+      "peak_dbfs": -9.896802,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "ui_type_tick",
+      "name_en": "Typing tick",
+      "name_zh": "键盘轻敲",
+      "category": "ui",
+      "tags": [
+        "typing",
+        "keyboard",
+        "打字",
+        "键盘"
+      ],
+      "file": "ui_type_tick.wav",
+      "sha256": "f8978fc2b695ca34ff0439c55cd5f375cc8c4590ddd5f27113e1a7d0c23ed140",
+      "sample_rate": 48000,
+      "sample_count": 4320,
+      "peak_dbfs": -11.700207,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "transition_air_swipe",
+      "name_en": "Air swipe",
+      "name_zh": "空气掠过",
+      "category": "transitions",
+      "tags": [
+        "whoosh",
+        "swipe",
+        "转场",
+        "掠过"
+      ],
+      "file": "transition_air_swipe.wav",
+      "sha256": "be6fb32133e121b15f7e732cc211a7dea280e020558630d764c5721627246ead",
+      "sample_rate": 48000,
+      "sample_count": 31200,
+      "peak_dbfs": -7.958933,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "transition_riser",
+      "name_en": "Rising tension",
+      "name_zh": "渐强上升",
+      "category": "transitions",
+      "tags": [
+        "riser",
+        "build",
+        "上升",
+        "渐强"
+      ],
+      "file": "transition_riser.wav",
+      "sha256": "f07ddd44c0a37f7d3d5d488b26ba22e949b5abde6f6130e70b67105299e7b1cf",
+      "sample_rate": 48000,
+      "sample_count": 86400,
+      "peak_dbfs": -7.534737,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "transition_reverse",
+      "name_en": "Reverse swell",
+      "name_zh": "倒吸渐起",
+      "category": "transitions",
+      "tags": [
+        "reverse",
+        "swell",
+        "倒吸",
+        "转场"
+      ],
+      "file": "transition_reverse.wav",
+      "sha256": "4d58d0c8d9c860fd36fb42618691c100bfd5addba02df46620d54d682b1aa38d",
+      "sample_rate": 48000,
+      "sample_count": 67200,
+      "peak_dbfs": -7.958933,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "transition_sparkle",
+      "name_en": "Sparkle trail",
+      "name_zh": "闪光轨迹",
+      "category": "transitions",
+      "tags": [
+        "sparkle",
+        "magic",
+        "闪光",
+        "魔法"
+      ],
+      "file": "transition_sparkle.wav",
+      "sha256": "96452c8b5120bcc174eeab592870a7357e2174340d295488853aa5e05dc316d9",
+      "sample_rate": 48000,
+      "sample_count": 57600,
+      "peak_dbfs": -8.404216,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "transition_swoosh_down",
+      "name_en": "Falling swoosh",
+      "name_zh": "下落呼啸",
+      "category": "transitions",
+      "tags": [
+        "down",
+        "swoosh",
+        "下落",
+        "呼啸"
+      ],
+      "file": "transition_swoosh_down.wav",
+      "sha256": "397227d151198663d45ad7722a12bbad85b75d1be0d48f4f3f4e1c6bf4a51eec",
+      "sample_rate": 48000,
+      "sample_count": 38400,
+      "peak_dbfs": -7.958933,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "impact_soft_thud",
+      "name_en": "Soft thud",
+      "name_zh": "柔和闷击",
+      "category": "impacts",
+      "tags": [
+        "thud",
+        "soft",
+        "闷击",
+        "柔和"
+      ],
+      "file": "impact_soft_thud.wav",
+      "sha256": "953fc756f135c7862baf1a507c0bd197d7e817cab00e6cceedcdd4a22d5e9b82",
+      "sample_rate": 48000,
+      "sample_count": 31200,
+      "peak_dbfs": -7.534737,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "impact_cinematic",
+      "name_en": "Cinematic hit",
+      "name_zh": "电影重击",
+      "category": "impacts",
+      "tags": [
+        "cinematic",
+        "bass",
+        "重击",
+        "低音"
+      ],
+      "file": "impact_cinematic.wav",
+      "sha256": "749952a812f56fb55387d38662245c178f0c82a132d9e2030a1f4259493fc8a0",
+      "sample_rate": 48000,
+      "sample_count": 76800,
+      "peak_dbfs": -6.374976,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "impact_wood_knock",
+      "name_en": "Wooden knock",
+      "name_zh": "木质敲击",
+      "category": "impacts",
+      "tags": [
+        "wood",
+        "knock",
+        "木质",
+        "敲击"
+      ],
+      "file": "impact_wood_knock.wav",
+      "sha256": "b1d4ca4626f6b4f2163c7c642ce7aa923d605a9298e44ca6e0d8b8f8a706115e",
+      "sample_rate": 48000,
+      "sample_count": 15360,
+      "peak_dbfs": -7.958933,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "impact_digital",
+      "name_en": "Digital hit",
+      "name_zh": "电子冲击",
+      "category": "impacts",
+      "tags": [
+        "digital",
+        "glitch",
+        "电子",
+        "冲击"
+      ],
+      "file": "impact_digital.wav",
+      "sha256": "715c263b4bbd39e8aecba1b047e00fc7a6c3ef7018d73cf422474a87f890b5ee",
+      "sample_rate": 48000,
+      "sample_count": 26400,
+      "peak_dbfs": -7.534737,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "impact_rubber_bounce",
+      "name_en": "Rubber bounce",
+      "name_zh": "橡皮弹跳",
+      "category": "impacts",
+      "tags": [
+        "bounce",
+        "rubber",
+        "弹跳",
+        "橡皮"
+      ],
+      "file": "impact_rubber_bounce.wav",
+      "sha256": "29f5da896306977cd8eca5b990a2a319dde73d10cdf66325e37b87d49e158bb8",
+      "sample_rate": 48000,
+      "sample_count": 43200,
+      "peak_dbfs": -8.404216,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "notification_chime",
+      "name_en": "Gentle chime",
+      "name_zh": "轻柔提示",
+      "category": "notifications",
+      "tags": [
+        "chime",
+        "gentle",
+        "提示",
+        "轻柔"
+      ],
+      "file": "notification_chime.wav",
+      "sha256": "052fc0710902364b7467b0949a4c727b8c841040e89b4c2b063dd12ad437cb3c",
+      "sample_rate": 48000,
+      "sample_count": 38400,
+      "peak_dbfs": -9.370515,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "notification_success",
+      "name_en": "Success melody",
+      "name_zh": "成功旋律",
+      "category": "notifications",
+      "tags": [
+        "success",
+        "complete",
+        "成功",
+        "完成"
+      ],
+      "file": "notification_success.wav",
+      "sha256": "ac9a9a30ea0b67daf1944fef0ed923d36401b0e9143af4cf6e89cc4669db07d0",
+      "sample_rate": 48000,
+      "sample_count": 67200,
+      "peak_dbfs": -8.404216,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "notification_warning",
+      "name_en": "Soft warning",
+      "name_zh": "温和提醒",
+      "category": "notifications",
+      "tags": [
+        "warning",
+        "alert",
+        "提醒",
+        "警示"
+      ],
+      "file": "notification_warning.wav",
+      "sha256": "d880f46ee89a9964c1b3fc1ae83fdc17f2ff95c2bf2e075f6c900d86a0cf9e52",
+      "sample_rate": 48000,
+      "sample_count": 36000,
+      "peak_dbfs": -9.370515,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "notification_message",
+      "name_en": "New message",
+      "name_zh": "消息到达",
+      "category": "notifications",
+      "tags": [
+        "message",
+        "ping",
+        "消息",
+        "提示音"
+      ],
+      "file": "notification_message.wav",
+      "sha256": "a250b5662873c27ecab4ec950411b07b6e496edbff65e669565fe0391e960ee2",
+      "sample_rate": 48000,
+      "sample_count": 33600,
+      "peak_dbfs": -9.896802,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "notification_bell",
+      "name_en": "Glass bell",
+      "name_zh": "玻璃铃声",
+      "category": "notifications",
+      "tags": [
+        "bell",
+        "glass",
+        "铃声",
+        "玻璃"
+      ],
+      "file": "notification_bell.wav",
+      "sha256": "38a92089a4be422d918d687dcc7b6f1719097eb52fe23307253d86cd3633cc06",
+      "sample_rate": 48000,
+      "sample_count": 105600,
+      "peak_dbfs": -8.404216,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "atmosphere_breeze",
+      "name_en": "Synthetic breeze",
+      "name_zh": "合成微风",
+      "category": "atmosphere",
+      "tags": [
+        "wind",
+        "breeze",
+        "风声",
+        "氛围"
+      ],
+      "file": "atmosphere_breeze.wav",
+      "sha256": "626e179833bf6aded32f38bda51cbf8bbe45bc4316c0a07cb45b91b0f562dc8e",
+      "sample_rate": 48000,
+      "sample_count": 288000,
+      "peak_dbfs": -12.396129,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "atmosphere_rain",
+      "name_en": "Synthetic light rain",
+      "name_zh": "合成细雨",
+      "category": "atmosphere",
+      "tags": [
+        "rain",
+        "water",
+        "雨声",
+        "水滴"
+      ],
+      "file": "atmosphere_rain.wav",
+      "sha256": "88fdef6d297d8323bbf948043ade7d7d3f13e163561905dc37d7ab3e46994010",
+      "sample_rate": 48000,
+      "sample_count": 288000,
+      "peak_dbfs": -12.396129,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "atmosphere_space",
+      "name_en": "Space drone",
+      "name_zh": "太空氛围",
+      "category": "atmosphere",
+      "tags": [
+        "space",
+        "drone",
+        "太空",
+        "氛围"
+      ],
+      "file": "atmosphere_space.wav",
+      "sha256": "47e869a955e19cab8079b56b3caf6fde0ad790320763dbb9ceb538cabb2cbae8",
+      "sample_rate": 48000,
+      "sample_count": 384000,
+      "peak_dbfs": -11.373078,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    },
+    {
+      "id": "atmosphere_room",
+      "name_en": "Quiet room texture",
+      "name_zh": "静室底噪",
+      "category": "atmosphere",
+      "tags": [
+        "room",
+        "texture",
+        "房间",
+        "底噪"
+      ],
+      "file": "atmosphere_room.wav",
+      "sha256": "710e962f2f723f050b8b32ee275c7e69439e1cfcb508ab530e702cee71b31d67",
+      "sample_rate": 48000,
+      "sample_count": 288000,
+      "peak_dbfs": -15.917402,
+      "license": "CutCat original / CC0-1.0",
+      "origin": "procedural"
+    }
+  ]
+}

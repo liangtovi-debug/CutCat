@@ -1,0 +1,19 @@
+CutCat Original Procedural Sound Starter Pack
+SPDX-License-Identifier: CC0-1.0
+
+To the extent that copyright and related rights apply to these original
+procedurally generated sound files and their catalogue, the creator dedicates
+those rights to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+You may copy, modify, distribute, and use these sound files in personal and
+commercial work without asking permission or providing attribution.
+
+These assets contain only original mathematical synthesis, not third-party
+recordings, sample packs, music, voices, or training/model outputs. Source:
+scripts/create_original_sounds.py in this repository.
+
+The assets are provided as-is, without warranties. CC0 does not grant patent,
+trademark, publicity, privacy, or other rights outside its scope. The CutCat
+name is not licensed as a trademark by this dedication. The dedication applies
+to this sound pack, not to unrelated application code or third-party content.

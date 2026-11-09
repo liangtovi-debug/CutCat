@@ -1,0 +1,26 @@
+{
+  "schema_version": 27,
+  "baseline_library_version": 23,
+  "no_new_dependencies": true,
+  "native_builds": false,
+  "remote_push": false,
+  "user_media_uploaded": false,
+  "legacy_h264_reference_decoded_byte_identical": true,
+  "legacy_h264_decoded_sha256": "5f71baefa1749682fd9336fbb31127544d3714cd1c0c05feef130351feae4ed7",
+  "independent_dimension_cases": 21,
+  "independent_dimension_max_code_error": 1.821215446366807,
+  "narrow_width_negative_control_max_code_error": 204.67,
+  "full_suite_status": "Run separately after this frozen source package; final acceptance report owns terminal totals.",
+  "corrected-focused": {
+    "passed": 241,
+    "seconds": 76.91
+  },
+  "highbit-focused": {
+    "passed": 80,
+    "seconds": 23.25
+  },
+  "final-focused": {
+    "passed": 141,
+    "seconds": 38.97
+  }
+}

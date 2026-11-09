@@ -1,0 +1,564 @@
+{
+  "scope": "Sequential synthetic exact-output baseline/candidate benchmark, not playback FPS.\n\nRun from the source root: python scripts/benchmark_clip_motion_cache.py --output DIR\nNo user media, network, dependencies, or performance assertions. Includes startup,\nraw I/O and three animated frames; excludes decode, grade, probe, audio and codecs.\n",
+  "utc_started": "2026-10-24T20:27:15.978442+00:00",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "cpu_count": 9,
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "source_sha256": {
+    "lumen/clip_composite.py": "f6f020c720b92dbbcfd63a25e7fc484b31183608b03e8635b72e2442bdbcb8ae",
+    "lumen/clip_motion_render.py": "2db1e6d88efdd8dd510d9688eb3529b000568f1b47a864778b0145e93824d996",
+    "tests/clip_composite_uncached_fixture.py": "1cee805c18bcd621d64502840c04d68e7e5b313b7f0378aa8fb797ca176f59ed"
+  },
+  "ffmpeg_version_startup_seconds": [
+    0.07311223103897646,
+    0.05964488803874701,
+    0.0648763970239088,
+    0.061338882020208985,
+    0.06640008604153991
+  ],
+  "measurements": [
+    {
+      "variant": "baseline",
+      "repeat": 0,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 21.46849903097609,
+      "amortized_seconds_per_frame": 7.156166343658697,
+      "utc_started": "2026-10-24T20:27:16.021282+00:00",
+      "load_before": [
+        1.56982421875,
+        1.451171875,
+        1.908203125
+      ],
+      "load_after": [
+        1.4072265625,
+        1.4208984375,
+        1.888671875
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=21.340s stime=0.057s rtime=21.378s",
+        "bench: maxrss=129296KiB"
+      ],
+      "main_input_sha256": "24021f8db56107a8eba02d49b30f519a1accadd84f56b8145c0872ed1eb11bb9",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "880a9c51d72fbdd000a418609a953db5556527acc997f4ca53fff0852bcfbc01",
+      "output_sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+      "output_bytes": 9331200,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 0,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 9.484748773043975,
+      "amortized_seconds_per_frame": 3.1615829243479916,
+      "utc_started": "2026-10-24T20:27:37.543502+00:00",
+      "load_before": [
+        1.4072265625,
+        1.4208984375,
+        1.888671875
+      ],
+      "load_after": [
+        1.34423828125,
+        1.40625,
+        1.87890625
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=9.356s stime=0.060s rtime=9.395s",
+        "bench: maxrss=129780KiB"
+      ],
+      "main_input_sha256": "24021f8db56107a8eba02d49b30f519a1accadd84f56b8145c0872ed1eb11bb9",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "5683c9790a5ffc116c72fccdbe8676aefef1df22aaa97ac3b770bfdced540789",
+      "output_sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+      "output_bytes": 9331200,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 1,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 9.310184250003658,
+      "amortized_seconds_per_frame": 3.1033947500012196,
+      "utc_started": "2026-10-24T20:27:47.078196+00:00",
+      "load_before": [
+        1.34423828125,
+        1.40625,
+        1.87890625
+      ],
+      "load_after": [
+        1.291015625,
+        1.392578125,
+        1.869140625
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=9.185s stime=0.050s rtime=9.220s",
+        "bench: maxrss=129780KiB"
+      ],
+      "main_input_sha256": "24021f8db56107a8eba02d49b30f519a1accadd84f56b8145c0872ed1eb11bb9",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "5683c9790a5ffc116c72fccdbe8676aefef1df22aaa97ac3b770bfdced540789",
+      "output_sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+      "output_bytes": 9331200,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 1,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 21.86841622897191,
+      "amortized_seconds_per_frame": 7.28947207632397,
+      "utc_started": "2026-10-24T20:27:56.441547+00:00",
+      "load_before": [
+        1.291015625,
+        1.392578125,
+        1.869140625
+      ],
+      "load_after": [
+        1.20751953125,
+        1.3662109375,
+        1.849609375
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=21.741s stime=0.051s rtime=21.775s",
+        "bench: maxrss=129296KiB"
+      ],
+      "main_input_sha256": "24021f8db56107a8eba02d49b30f519a1accadd84f56b8145c0872ed1eb11bb9",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "880a9c51d72fbdd000a418609a953db5556527acc997f4ca53fff0852bcfbc01",
+      "output_sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c",
+      "output_bytes": 9331200,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 0,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 21.96696414804319,
+      "amortized_seconds_per_frame": 7.322321382681063,
+      "utc_started": "2026-10-24T20:28:18.398685+00:00",
+      "load_before": [
+        1.20751953125,
+        1.3662109375,
+        1.849609375
+      ],
+      "load_after": [
+        1.13525390625,
+        1.33544921875,
+        1.8251953125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=21.807s stime=0.083s rtime=21.854s",
+        "bench: maxrss=178456KiB"
+      ],
+      "main_input_sha256": "16ce2c64c3e04ef3bfdffa6657beac8c84a3a6bdee3e83b26f80cf2f4b3f1003",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "7b1534e0fdce28305cff1c29d874b64d606b26f86f9b24dae11b20572ed4347c",
+      "output_sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+      "output_bytes": 24883200,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 0,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 9.740914485999383,
+      "amortized_seconds_per_frame": 3.2469714953331277,
+      "utc_started": "2026-10-24T20:28:40.435588+00:00",
+      "load_before": [
+        1.13525390625,
+        1.33544921875,
+        1.8251953125
+      ],
+      "load_after": [
+        1.11376953125,
+        1.32373046875,
+        1.8154296875
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=9.557s stime=0.102s rtime=9.626s",
+        "bench: maxrss=178936KiB"
+      ],
+      "main_input_sha256": "16ce2c64c3e04ef3bfdffa6657beac8c84a3a6bdee3e83b26f80cf2f4b3f1003",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "a621e0cce734175a7092bab2f24ff8ddae381c02604a29d1af2273e40393081f",
+      "output_sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+      "output_bytes": 24883200,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 1,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 9.534100507968105,
+      "amortized_seconds_per_frame": 3.178033502656035,
+      "utc_started": "2026-10-24T20:28:50.250991+00:00",
+      "load_before": [
+        1.11376953125,
+        1.32373046875,
+        1.8154296875
+      ],
+      "load_after": [
+        1.095703125,
+        1.3125,
+        1.806640625
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=9.336s stime=0.089s rtime=9.393s",
+        "bench: maxrss=178936KiB"
+      ],
+      "main_input_sha256": "16ce2c64c3e04ef3bfdffa6657beac8c84a3a6bdee3e83b26f80cf2f4b3f1003",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "a621e0cce734175a7092bab2f24ff8ddae381c02604a29d1af2273e40393081f",
+      "output_sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+      "output_bytes": 24883200,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 1,
+      "width": 1920,
+      "height": 1080,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 21.403252400981728,
+      "amortized_seconds_per_frame": 7.134417466993909,
+      "utc_started": "2026-10-24T20:28:59.851608+00:00",
+      "load_before": [
+        1.095703125,
+        1.3125,
+        1.806640625
+      ],
+      "load_after": [
+        1.0673828125,
+        1.291015625,
+        1.7890625
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=21.233s stime=0.079s rtime=21.286s",
+        "bench: maxrss=178456KiB"
+      ],
+      "main_input_sha256": "16ce2c64c3e04ef3bfdffa6657beac8c84a3a6bdee3e83b26f80cf2f4b3f1003",
+      "foreground_input_sha256": "9b4d61147cec9422d3def3d6d5cfa35ffe1739ed1822249752af16a33e078866",
+      "filter_graph_sha256": "7b1534e0fdce28305cff1c29d874b64d606b26f86f9b24dae11b20572ed4347c",
+      "output_sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0",
+      "output_bytes": 24883200,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 0,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 88.06977356399875,
+      "amortized_seconds_per_frame": 29.356591187999584,
+      "utc_started": "2026-10-24T20:29:21.451298+00:00",
+      "load_before": [
+        1.0673828125,
+        1.291015625,
+        1.7890625
+      ],
+      "load_after": [
+        1.01220703125,
+        1.21142578125,
+        1.71142578125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=87.800s stime=0.228s rtime=87.929s",
+        "bench: maxrss=399008KiB"
+      ],
+      "main_input_sha256": "c6df4814d20e32ac0861d126cfe99e78c702708c00fcff868aeeafa35bca87e3",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "912183acbaaa22cc75dd5334a3a1e35a5c0fc63502144c88ff6bfaaf563a5a84",
+      "output_sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+      "output_bytes": 37324800,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 0,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 36.36247121100314,
+      "amortized_seconds_per_frame": 12.120823737001047,
+      "utc_started": "2026-10-24T20:30:49.724887+00:00",
+      "load_before": [
+        1.01220703125,
+        1.21142578125,
+        1.71142578125
+      ],
+      "load_after": [
+        1.00537109375,
+        1.1865234375,
+        1.68408203125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=36.170s stime=0.170s rtime=36.230s",
+        "bench: maxrss=399488KiB"
+      ],
+      "main_input_sha256": "c6df4814d20e32ac0861d126cfe99e78c702708c00fcff868aeeafa35bca87e3",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "b4596c47d092c143c5d301b0725d23ec4d23c2a232564cc2a729e164c9fd043b",
+      "output_sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+      "output_bytes": 37324800,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 1,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 37.565611036960036,
+      "amortized_seconds_per_frame": 12.521870345653346,
+      "utc_started": "2026-10-24T20:31:26.293454+00:00",
+      "load_before": [
+        1.00537109375,
+        1.1865234375,
+        1.68408203125
+      ],
+      "load_after": [
+        1.001953125,
+        1.16455078125,
+        1.65673828125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=37.276s stime=0.203s rtime=37.416s",
+        "bench: maxrss=399488KiB"
+      ],
+      "main_input_sha256": "c6df4814d20e32ac0861d126cfe99e78c702708c00fcff868aeeafa35bca87e3",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "b4596c47d092c143c5d301b0725d23ec4d23c2a232564cc2a729e164c9fd043b",
+      "output_sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+      "output_bytes": 37324800,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 1,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": false,
+      "frames": 3,
+      "seconds": 84.42286855302518,
+      "amortized_seconds_per_frame": 28.14095618434173,
+      "utc_started": "2026-10-24T20:32:04.105046+00:00",
+      "load_before": [
+        1.001953125,
+        1.16455078125,
+        1.65673828125
+      ],
+      "load_after": [
+        1.0,
+        1.1201171875,
+        1.595703125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=84.082s stime=0.198s rtime=84.258s",
+        "bench: maxrss=398920KiB"
+      ],
+      "main_input_sha256": "c6df4814d20e32ac0861d126cfe99e78c702708c00fcff868aeeafa35bca87e3",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "912183acbaaa22cc75dd5334a3a1e35a5c0fc63502144c88ff6bfaaf563a5a84",
+      "output_sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65",
+      "output_bytes": 37324800,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 0,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 86.38331245997688,
+      "amortized_seconds_per_frame": 28.79443748665896,
+      "utc_started": "2026-10-24T20:33:28.928388+00:00",
+      "load_before": [
+        1.0,
+        1.1201171875,
+        1.595703125
+      ],
+      "load_after": [
+        1.046875,
+        1.11181640625,
+        1.5458984375
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=86.024s stime=0.282s rtime=86.141s",
+        "bench: maxrss=594556KiB"
+      ],
+      "main_input_sha256": "097a5cd4d24f53a40073ebd8e6b9def8b44d2e38451a7ddc4cc1335cff245d88",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "d9477612dc756356adbf884a654d1e51dd07fcc021acdaf1726a899336e0cf60",
+      "output_sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+      "output_bytes": 99532800,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 0,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 38.34834476001561,
+      "amortized_seconds_per_frame": 12.782781586671868,
+      "utc_started": "2026-10-24T20:34:55.641231+00:00",
+      "load_before": [
+        1.046875,
+        1.11181640625,
+        1.5458984375
+      ],
+      "load_after": [
+        1.02490234375,
+        1.09814453125,
+        1.52490234375
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=37.905s stime=0.316s rtime=38.049s",
+        "bench: maxrss=594904KiB"
+      ],
+      "main_input_sha256": "097a5cd4d24f53a40073ebd8e6b9def8b44d2e38451a7ddc4cc1335cff245d88",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "e48ee7c1204ebb88d1eb1bce52db8b0b5c42dec6d8b4203953292a6aab80dcc8",
+      "output_sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+      "output_bytes": 99532800,
+      "returncode": 0
+    },
+    {
+      "variant": "candidate",
+      "repeat": 1,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 37.638982056989335,
+      "amortized_seconds_per_frame": 12.546327352329778,
+      "utc_started": "2026-10-24T20:35:34.331648+00:00",
+      "load_before": [
+        1.02490234375,
+        1.09814453125,
+        1.52490234375
+      ],
+      "load_after": [
+        1.05615234375,
+        1.099609375,
+        1.50732421875
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=37.201s stime=0.320s rtime=37.370s",
+        "bench: maxrss=594904KiB"
+      ],
+      "main_input_sha256": "097a5cd4d24f53a40073ebd8e6b9def8b44d2e38451a7ddc4cc1335cff245d88",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "e48ee7c1204ebb88d1eb1bce52db8b0b5c42dec6d8b4203953292a6aab80dcc8",
+      "output_sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+      "output_bytes": 99532800,
+      "returncode": 0
+    },
+    {
+      "variant": "baseline",
+      "repeat": 1,
+      "width": 3840,
+      "height": 2160,
+      "high_bit": true,
+      "frames": 3,
+      "seconds": 84.47408705600537,
+      "amortized_seconds_per_frame": 28.158029018668458,
+      "utc_started": "2026-10-24T20:36:12.295819+00:00",
+      "load_before": [
+        1.05615234375,
+        1.099609375,
+        1.50732421875
+      ],
+      "load_after": [
+        1.0107421875,
+        1.07177734375,
+        1.45751953125
+      ],
+      "ffmpeg_benchmark": [
+        "bench: utime=84.092s stime=0.281s rtime=84.221s",
+        "bench: maxrss=594684KiB"
+      ],
+      "main_input_sha256": "097a5cd4d24f53a40073ebd8e6b9def8b44d2e38451a7ddc4cc1335cff245d88",
+      "foreground_input_sha256": "65fa98e20cca3acf002819b26704267ad8bb30f93bee54d560b192eeee1ba4a5",
+      "filter_graph_sha256": "d9477612dc756356adbf884a654d1e51dd07fcc021acdaf1726a899336e0cf60",
+      "output_sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462",
+      "output_bytes": 99532800,
+      "returncode": 0
+    }
+  ],
+  "summaries": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "high_bit": false,
+      "baseline_median_seconds": 21.668457629974,
+      "candidate_median_seconds": 9.397466511523817,
+      "speedup": 2.305776520022993,
+      "reduction_percent": 56.63066254183089,
+      "exact_output": true,
+      "output_sha256": "ee82527cc93f2dcd7a26e472ed8fa625f0905a256a93f788ba658c7e0d1b374c"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "high_bit": true,
+      "baseline_median_seconds": 21.68510827451246,
+      "candidate_median_seconds": 9.637507496983744,
+      "speedup": 2.250074335226121,
+      "reduction_percent": 55.55702385719159,
+      "exact_output": true,
+      "output_sha256": "2d2bc7244c62c3f8c6a88219d6c81d571855b12cfbb9bc8fb2ec7d0be28ed7e0"
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "high_bit": false,
+      "baseline_median_seconds": 86.24632105851197,
+      "candidate_median_seconds": 36.96404112398159,
+      "speedup": 2.333249245374228,
+      "reduction_percent": 57.141312614477634,
+      "exact_output": true,
+      "output_sha256": "2efd2f7d8ad6757b5ce21a0fe5820256304cbc9d47f99bf3c05c1bd58c838d65"
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "high_bit": true,
+      "baseline_median_seconds": 85.42869975799113,
+      "candidate_median_seconds": 37.99366340850247,
+      "speedup": 2.2484986204008255,
+      "reduction_percent": 55.52587887193204,
+      "exact_output": true,
+      "output_sha256": "d77778c9706b1701fd8fca73995346e09396825d73ec1f5a6034821ff59a8462"
+    }
+  ],
+  "utc_finished": "2026-10-24T20:37:37.089648+00:00"
+}

@@ -1,0 +1,26 @@
+oracle 15 11 0.001 maxerr 0
+oracle 15 11 0.125 maxerr 0
+oracle 15 11 0.5 maxerr 0
+oracle 15 11 1 maxerr 0
+oracle 14 10 0.001 maxerr 0
+oracle 14 10 0.125 maxerr 0
+oracle 14 10 0.5 maxerr 0
+oracle 14 10 1 maxerr 0
+oracle 2 1 0.001 maxerr 0
+oracle 2 1 0.125 maxerr 0
+oracle 2 1 0.5 maxerr 0
+oracle 2 1 1 maxerr 0
+oracle 1 1 0.001 maxerr 0
+oracle 1 1 0.125 maxerr 0
+oracle 1 1 0.5 maxerr 0
+oracle 1 1 1 maxerr 0
+legacy odd True maxerr 0 pixels mismatch 0
+legacy odd False maxerr 20 pixels mismatch 495
+timing 640 360 null 0.076 seconds, single frame and single thread
+timing 640 360 native8 0.086 seconds, single frame and single thread
+timing 640 360 geq_pow 0.203 seconds, single frame and single thread
+timing 640 360 geq_st 0.233 seconds, single frame and single thread
+timing 1920 1080 null 0.111 seconds, single frame and single thread
+timing 1920 1080 native8 0.142 seconds, single frame and single thread
+timing 1920 1080 geq_pow 1.244 seconds, single frame and single thread
+timing 1920 1080 geq_st 1.395 seconds, single frame and single thread

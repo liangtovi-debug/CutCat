@@ -1,0 +1,36 @@
+"""Viewer-only reference still controls and honest preview provenance."""
+ZH_CN = {
+    'Preview color unavailable': '预览色彩不可用',
+    'Preview color unavailable. Unsupported format or color metadata; no guessed conversion is displayed.': '预览色彩不可用。格式或色彩元数据不受支持；不会猜测转换并显示错误颜色。',
+    'Could not seek the preview.': '无法跳转到预览位置。',
+    '2   VIEWER': '2   预览',
+    'Same edit graph as export': '与导出使用相同编辑流程',
+    'Clear': '清除',
+    'Before': '调整前',
+    'After': '调整后',
+    'Info': '详情',
+    'Reference still information': '参考帧信息',
+    'Current · 8-bit decoded Rec.709 preview': '当前 · 8 位已解码 Rec.709 预览',
+    'Capture still': '抓取参考帧',
+    'Replace still': '替换参考帧',
+    'Clear reference still': '清除参考帧',
+    'Reference comparison': '参考帧对比',
+    'Compare off': '关闭对比',
+    'Side by side': '并排对比',
+    'Wipe': '划像对比',
+    'Reference wipe position': '参考帧划像位置',
+    'Reference on the left; current preview on the right.': '左侧为参考帧，右侧为当前预览。',
+    'Reference · f{frame}': '参考帧 · f{frame}',
+    'Current · f{frame}': '当前帧 · f{frame}',
+    'Current unavailable': '当前帧不可用',
+    'Wait for a current decoded preview frame before capturing a still.': '请等待最新预览帧解码完成后再抓取参考帧。',
+    'This preview frame cannot fit in the bounded reference memory. The existing still was kept.': '此预览帧超出参考帧内存上限，已保留原参考帧。',
+    'Reference f{frame} · {mode} · scopes: current': '参考 f{frame} · {mode} · 示波器：当前预览',
+    'Session-only still · scopes: current preview': '参考帧仅保留于本次会话 · 示波器：当前预览',
+    'Timeline background / overlays': '时间线背景／叠加图层',
+    'Reference f{frame} · {mode}\nDecoded timestamp: {start}–{end} µs\nProject revision: {revision}\nActive video sources: {sources}\nPreview: {path}':
+        '参考 f{frame} · {mode}\n解码时间戳：{start}–{end} 微秒\n项目修订号：{revision}\n当前画面来源：{sources}\n预览：{path}',
+    'One session-only still from the displayed decoded 8-bit compressed Rec.709 preview. Not source pixels, a 10-bit/HDR comparison, or a calibrated monitor. Replace overwrites only this in-memory still; opening or creating a project clears it. Comparison never changes the project, undo history or export. Scopes measure only the current preview. Supported YUV frames use explicit matrix/range conversion; already-RGB backend frames are passed through, not color-verified. The exact displayed pixels are preserved, not a colorimetric guarantee.':
+        '仅保留一张当前显示的已解码 8 位压缩 Rec.709 预览参考帧，仅限本次会话。它不是源素材像素、10 位／HDR 对比或校准监视器。替换仅覆盖内存中的参考帧；打开或新建项目会清除它。对比不修改项目、撤销历史或导出。示波器仅测量当前预览。支持的 YUV 帧按明确的矩阵／范围转换；后端已转为 RGB 的帧直接显示，不代表已验证其色彩。参考帧保留实际显示像素，不保证色度学一致性。',
+}
+EN = {}

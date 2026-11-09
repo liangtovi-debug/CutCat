@@ -1,0 +1,26 @@
+"""Explicit labels for local autosave and crash recovery."""
+ZH_CN = {
+    'Refresh': '刷新',
+    'Unreadable recovery session · {identity}': '无法读取的恢复会话 · {identity}',
+    'Recover unsaved projects': '恢复未保存的项目',
+    'Snapshots stay on this computer. Restore opens an unsaved copy; originals and media are never replaced. Close keeps snapshots for later.': '快照仅保存在本机。恢复会打开未保存的副本，不会覆盖原项目或素材。关闭此窗口会保留快照。',
+    'Restore copy': '恢复副本',
+    'Discard snapshot': '丢弃快照',
+    'Untitled project': '未命名项目',
+    'Some recovery files could not be read: {error}': '部分恢复文件无法读取：{error}',
+    'Select a snapshot to restore or discard.': '选择要恢复或丢弃的快照。',
+    'No recoverable projects. Active sessions are not listed.': '没有可恢复的项目。正在编辑的会话不会显示在此列表中。',
+    'Discard recovery snapshot?': '丢弃恢复快照？',
+    'Discard all recovery snapshots for this session? This does not delete the original project or media.': '丢弃此编辑会话的全部恢复快照？不会删除原项目或素材。',
+    'Recovery needs attention: {error}': '自动恢复需要处理：{error}',
+    'Local recovery · every 30 seconds': '本地自动恢复 · 每 30 秒',
+    'Recovery needs attention': '自动恢复需要处理',
+    'Recovery · {count} available': '可恢复项目 · {count} 个',
+    'Open recovery manager. Snapshots do not replace Save.': '打开恢复管理。恢复快照不能代替正式保存项目。',
+    'Recovery snapshot saved locally': '恢复快照已保存在本机',
+    'Finish or cancel active work before restoring.': '请先完成或取消当前任务，再恢复项目。',
+    'Recovered copy · Save As to keep it': '已恢复副本 · 请另存为项目',
+    'Recovered copy · Build preview, then Save As to keep your edits.': '已恢复副本 · 可先生成预览，再另存为项目以保留编辑。',
+    'Some recovered media is missing. Use Relink missing media.': '恢复项目的部分素材已移动或缺失，请使用“重新链接缺失素材”。',
+}
+EN = {}

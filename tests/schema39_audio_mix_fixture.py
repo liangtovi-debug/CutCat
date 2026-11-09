@@ -1,0 +1,130 @@
+# Frozen accepted schema39 compiler. Original SHA256: 87ecac426d1814a6ebcc0b049e06588c1406cdfaec00ec1f73a2c46310204891
+# Only package imports were made absolute; do not adapt this old oracle to new fields.
+"""The renderer's exact, pre-encoder 48 kHz stereo timeline mix.
+
+This module only compiles filters. Callers validate the project and fresh source
+metadata, verify generated-media provenance and, when necessary, verify the
+fixed Rubber Band implementation before running FFmpeg. In particular, building
+an audio-only graph never probes, decodes, grades or prepares picture sources.
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass
+from fractions import Fraction
+import math
+from typing import Mapping, TYPE_CHECKING
+
+from lumen.audio_timing import AudioTiming, SAMPLE_RATE, compile_audio_timing
+from lumen.timing import sample_boundary
+
+if TYPE_CHECKING:
+    from lumen.model import Clip, Media, Project
+
+
+def ordered_clips(project: Project) -> tuple[Clip, ...]:
+    """Keep export's summation order, including deterministic same-time ties."""
+    return tuple(sorted(project.clips, key=lambda clip: (clip.track, clip.start, clip.id)))
+
+
+def _number(value: float) -> str:
+    # Identical to the renderer's numeric serialization. Do not increase its
+    # precision here: the filter text and floating-point gain must stay exact.
+    value = float(value)
+    if not math.isfinite(value):
+        raise ValueError('Non-finite timeline or grade value.')
+    return format(value, '.12g')
+
+
+@dataclass(frozen=True)
+class AudioMixClip:
+    fragment: str
+    label: str
+    timing: AudioTiming
+
+
+@dataclass(frozen=True)
+class CompiledAudioMix:
+    inputs: tuple[str, ...]
+    graph: str
+    end_sample: int
+    # Unique actually audible media IDs, in first-input order.
+    source_ids: tuple[str, ...]
+
+
+class AudioMixBuilder:
+    """Composable fragments preserve the full renderer's graph insertion order.
+
+    Export interleaves picture and sound per clip. Moving sound into one block
+    would change the compiled graph even if its PCM happened to match. Expose
+    the three existing fragments instead: silence, each clip, and final mix.
+    ``index`` always addresses ``clips`` and determines its stable output label;
+    ``input_index`` optionally remaps only the FFmpeg input for audio-only work.
+    """
+
+    def __init__(self, project: Project):
+        self.master_gain_db = project.master_gain_db
+        self.clips = ordered_clips(project)
+        self.fps = Fraction(project.fps_num, project.fps_den)
+        self.end_sample = sample_boundary(project.duration_frames, self.fps, SAMPLE_RATE)
+
+    @property
+    def silence_fragment(self) -> str:
+        return f'anullsrc=r=48000:cl=stereo,atrim=end_sample={self.end_sample}[silence]'
+
+    def clip_fragment(self, index: int, media: Media, *,
+                      input_index: int | None = None) -> AudioMixClip | None:
+        clip = self.clips[index]
+        if not media.has_audio or clip.muted:
+            return None
+        plan = compile_audio_timing(clip, self.fps, media.audio_offset)
+        if plan.silent:
+            return None
+        filters = [*plan.filters, f'volume={_number(clip.gain_db)}dB']
+        if clip.fade_in:
+            fade_samples = sample_boundary(clip.start + clip.fade_in, self.fps, SAMPLE_RATE) - plan.start_sample
+            filters += [f'afade=t=in:ss=0:ns={fade_samples}']
+        if clip.fade_out:
+            fade_start = sample_boundary(clip.end - clip.fade_out, self.fps, SAMPLE_RATE) - plan.start_sample
+            filters += [f'afade=t=out:ss={fade_start}:ns={plan.sample_count - fade_start}']
+        filters += [f'adelay={plan.start_sample}S:all=1']
+        source_index = index if input_index is None else input_index
+        label = f'a{index}'
+        return AudioMixClip(f'[{source_index}:a:0]' + ','.join(filters) + f'[{label}]', label, plan)
+
+    def final_fragment(self, labels: list[str] | tuple[str, ...]) -> str:
+        """Mix the supplied clip labels after the duration-defining silence bed."""
+        audio = ('silence', *labels)
+        # Preserve legacy graphs exactly at unity. Float precision retains
+        # overload headroom until this post-sum, post-duration gain stage.
+        gain = (f',volume={_number(self.master_gain_db)}dB:precision=float'
+                if self.master_gain_db else '')
+        return (''.join(f'[{label}]' for label in audio)
+                + f'amix=inputs={len(audio)}:normalize=0:duration=first,'
+                + f'atrim=end_sample={self.end_sample}{gain}[aout]')
+
+
+def compile_audio_mix(project: Project, checked_media: Mapping[str, Media]) -> CompiledAudioMix:
+    """Compile only audible inputs, using the caller's checked local paths.
+
+    The source path, audio presence and audio offset must describe the same
+    verified source snapshot. No file inspection or picture work occurs here.
+    Each audible clip keeps its own FFmpeg input, as it does during export.
+    Explicit input video/subtitle/data disabling prevents incidental decoding.
+    The caller maps ``[aout]`` to a 48 kHz, two-channel PCM output, not AAC.
+    """
+    builder = AudioMixBuilder(project)
+    inputs, fragments, labels, source_ids = [], [builder.silence_fragment], [], []
+    input_index = 0
+    for index, clip in enumerate(builder.clips):
+        media = checked_media[clip.media_id]
+        fragment = builder.clip_fragment(index, media, input_index=input_index)
+        if fragment is None:
+            continue
+        inputs += ['-protocol_whitelist', 'file,pipe', '-vn', '-sn', '-dn', '-i', str(media.path)]
+        fragments.append(fragment.fragment)
+        labels.append(fragment.label)
+        source_ids.append(clip.media_id)
+        input_index += 1
+    fragments.append(builder.final_fragment(labels))
+    return CompiledAudioMix(tuple(inputs), ';'.join(fragments), builder.end_sample,
+                            tuple(dict.fromkeys(source_ids)))

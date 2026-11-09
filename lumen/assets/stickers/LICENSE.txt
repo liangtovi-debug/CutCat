@@ -1,0 +1,23 @@
+ORIGINAL ASSET PROVENANCE — CUT CAT PROJECT LICENSE
+
+The following original geometric sticker artwork was generated specifically for
+this project in 2026:
+- spark_star.png
+- check_bubble.png
+- pulse_ring/frame_00.png through pulse_ring/frame_07.png
+- pulse_ring/sticker.json
+
+The source generator is scripts/create_original_stickers.py. All shapes are
+constructed from circles, polygons, lines, and rounded rectangles. There are no
+fonts, third-party artwork, traced images, trademarks, downloaded assets, or
+generative-model images. The generator introduces no external artwork-license
+obligations. PySide6/Qt are software dependencies with their own separate terms.
+
+These original assets and their source instructions are covered by the
+CutCat Use, Modification and No-Sale License in the repository root LICENSE.
+Use and modification are allowed; selling the software or modified versions
+is prohibited under that license. This is not a public-domain dedication.
+Qt/PySide6 and other separately licensed material retain their own terms.
+
+这些原创素材及其生成源码适用仓库根目录 LICENSE 中的 CutCat 使用、修改及禁止售卖许可。
+这不是公有领域献出声明。Qt/PySide6 等独立许可材料继续遵循各自条款。
